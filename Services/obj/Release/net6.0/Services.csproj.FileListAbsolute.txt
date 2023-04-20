@@ -1,0 +1,17 @@
+E:\MPP project\Services\bin\Release\net6.0\Services.deps.json
+E:\MPP project\Services\bin\Release\net6.0\Services.dll
+E:\MPP project\Services\bin\Release\net6.0\Services.pdb
+E:\MPP project\Services\bin\Release\net6.0\DataAccess.dll
+E:\MPP project\Services\bin\Release\net6.0\Domain.dll
+E:\MPP project\Services\bin\Release\net6.0\DataAccess.pdb
+E:\MPP project\Services\bin\Release\net6.0\Domain.pdb
+E:\MPP project\Services\obj\Release\net6.0\Services.csproj.AssemblyReference.cache
+E:\MPP project\Services\obj\Release\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\MPP project\Services\obj\Release\net6.0\Services.AssemblyInfoInputs.cache
+E:\MPP project\Services\obj\Release\net6.0\Services.AssemblyInfo.cs
+E:\MPP project\Services\obj\Release\net6.0\Services.csproj.CoreCompileInputs.cache
+E:\MPP project\Services\obj\Release\net6.0\Services.csproj.CopyComplete
+E:\MPP project\Services\obj\Release\net6.0\Services.dll
+E:\MPP project\Services\obj\Release\net6.0\refint\Services.dll
+E:\MPP project\Services\obj\Release\net6.0\Services.pdb
+E:\MPP project\Services\obj\Release\net6.0\ref\Services.dll

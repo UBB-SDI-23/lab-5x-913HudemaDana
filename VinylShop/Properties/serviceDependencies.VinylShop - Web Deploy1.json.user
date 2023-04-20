@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "appConfig1": {
+      "restored": true,
+      "restoreTime": "2023-04-01T20:09:18.4406696Z"
+    },
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2023-04-01T19:40:41.6935686Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-04-01T19:50:30.6306342Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "c7425406-a049-41ee-b729-3bc5a1f7c102"
+    },
+    "appConfig1.subscriptionId": {
+      "Name": "appConfig1.subscriptionId",
+      "Type": "subscription",
+      "Value": "c7425406-a049-41ee-b729-3bc5a1f7c102"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NetworkWatcherRG"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NetworkWatcherRG"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "c7425406-a049-41ee-b729-3bc5a1f7c102"
+    },
+    "appConfig1.resourceGroupName": {
+      "Name": "appConfig1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "networkwatcherrg"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+E:\MPP project\Domain\bin\Release\net6.0\Domain.deps.json
+E:\MPP project\Domain\bin\Release\net6.0\Domain.dll
+E:\MPP project\Domain\bin\Release\net6.0\Domain.pdb
+E:\MPP project\Domain\obj\Release\net6.0\Domain.csproj.AssemblyReference.cache
+E:\MPP project\Domain\obj\Release\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\MPP project\Domain\obj\Release\net6.0\Domain.AssemblyInfoInputs.cache
+E:\MPP project\Domain\obj\Release\net6.0\Domain.AssemblyInfo.cs
+E:\MPP project\Domain\obj\Release\net6.0\Domain.csproj.CoreCompileInputs.cache
+E:\MPP project\Domain\obj\Release\net6.0\Domain.dll
+E:\MPP project\Domain\obj\Release\net6.0\refint\Domain.dll
+E:\MPP project\Domain\obj\Release\net6.0\Domain.pdb
+E:\MPP project\Domain\obj\Release\net6.0\ref\Domain.dll

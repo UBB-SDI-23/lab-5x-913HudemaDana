@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAVdELj4BI0mxqnWv5Uz/cQAAAAACAAAAAAAQZgAAAAEAACAAAACEge4wmS5h8oKohM8HdbooqAyvWRzIWtiUVuFPwbfN8AAAAAAOgAAAAAIAACAAAACsdZZqUNaVR4ASXYUSYWPYaHgMCIOb7tmJfMzHUKtRM4AAAACi/ugRAJ2eJ5XAZSn2Y+yVFP75wFTEo6pW3qi5WVk7eSrg1VOb3LjbSC7f10g9CfEtBClTP3xOvh+7GBHVUQe2J9B9waghWUQekh2qTwVWX9BKrT9sGdu/7db7UlsgvzGBi3q8HkIri6e9Ye3aqslXWJIvMkSbUZUQZH6NkzyEU0AAAAB0Bv2iXCRv8fCs+X0Ux49l+Oi/HfaplNKsz+d7LH57Sk9Zx4LO+ZnwXBR0+kp2qG+asUMmg+H+NC1YpCx6iaTf</EncryptedPassword>
+    <History>False|2023-04-01T20:19:06.6414472Z;False|2023-04-01T22:58:24.0059710+03:00;False|2023-04-01T22:55:30.3983569+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:vinylshopdb.database.windows.net,1433%3bInitial Catalog=VinylShop_db%3bUser Id=danaH%40vinylshopdb%3bPassword=Da.dadada</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="DataAccess.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:vinylshopdb.database.windows.net,1433%3bInitial Catalog=VinylShop_db%3bUser Id=danaH%40vinylshopdb%3bPassword=Da.dadada</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
