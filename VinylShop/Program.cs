@@ -8,15 +8,23 @@ using Azure.Identity;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
-// Add services to the container.
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Allow all",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                 .AllowAnyMethod()
+                 .AllowAnyHeader()
+                 .AllowCredentials();
+        });
+});
 
 builder.Services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-
 
 var config = new AutoMapper.MapperConfiguration(options =>
     options.AddProfile(new ApplicationProfile()));
@@ -36,6 +44,9 @@ builder.Services.AddSwaggerGen();
 
 
 var app = builder.Build();
+
+app.UseCors("Allow all");
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -43,6 +54,8 @@ if (app.Environment.IsDevelopment())
 }
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+
 
 app.UseAuthorization();
 
