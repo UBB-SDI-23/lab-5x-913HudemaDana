@@ -13,7 +13,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("Allow all",
         policy =>
         {
-            policy.WithOrigins("http://VinylShop.com")
+            policy.WithOrigins("http://localhost")
                  .AllowAnyMethod()
                  .AllowAnyHeader()
                  .AllowCredentials();
