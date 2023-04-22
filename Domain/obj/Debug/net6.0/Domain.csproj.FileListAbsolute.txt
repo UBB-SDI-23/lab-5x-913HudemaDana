@@ -34,3 +34,15 @@ E:\Folder2\Domain\obj\Debug\net6.0\Domain.dll
 E:\Folder2\Domain\obj\Debug\net6.0\refint\Domain.dll
 E:\Folder2\Domain\obj\Debug\net6.0\Domain.pdb
 E:\Folder2\Domain\obj\Debug\net6.0\ref\Domain.dll
+E:\Folder3\Domain\bin\Debug\net6.0\Domain.deps.json
+E:\Folder3\Domain\bin\Debug\net6.0\Domain.dll
+E:\Folder3\Domain\bin\Debug\net6.0\Domain.pdb
+E:\Folder3\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+E:\Folder3\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Folder3\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+E:\Folder3\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+E:\Folder3\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+E:\Folder3\Domain\obj\Debug\net6.0\Domain.dll
+E:\Folder3\Domain\obj\Debug\net6.0\refint\Domain.dll
+E:\Folder3\Domain\obj\Debug\net6.0\Domain.pdb
+E:\Folder3\Domain\obj\Debug\net6.0\ref\Domain.dll
