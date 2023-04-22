@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mph2XZ1jk6xtKWBA5bKRydGZl9GM6+fFsnRkeegIodgNsODC73VjLybx8K9TVPEYQmCSgx6Ss3dxHE+4cL0Z0Q==",
+  "dgSpecHash": "OiEJ0aiqE8ZGXfkA53Cqh5wtWj7qKHFK7Krgg+arLM+9IAp6Pq2d5J0RsdSdcdBGIvke3L/9PWTF4x6qvUTiCw==",
   "success": true,
   "projectFilePath": "E:\\Folder3\\VinylShop\\VinylShop.csproj",
   "expectedPackageFiles": [
@@ -75,6 +75,8 @@
     "C:\\Users\\dllov\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\nhibernate\\5.4.1\\nhibernate.5.4.1.nupkg.sha512",
+    "C:\\Users\\dllov\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\dllov\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.3\\npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\remotion.linq.eagerfetching\\2.2.0\\remotion.linq.eagerfetching.2.2.0.nupkg.sha512",
