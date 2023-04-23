@@ -704,3 +704,5 @@ E:\Folder3\VinylShop\obj\Debug\net6.0\refint\VinylShop.dll
 E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.pdb
 E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.genruntimeconfig.cache
 E:\Folder3\VinylShop\obj\Debug\net6.0\ref\VinylShop.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Npgsql.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

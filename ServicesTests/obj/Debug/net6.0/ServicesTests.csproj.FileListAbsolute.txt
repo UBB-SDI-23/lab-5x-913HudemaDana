@@ -490,3 +490,5 @@ E:\Folder3\ServicesTests\obj\Debug\net6.0\refint\ServicesTests.dll
 E:\Folder3\ServicesTests\obj\Debug\net6.0\ServicesTests.pdb
 E:\Folder3\ServicesTests\obj\Debug\net6.0\ServicesTests.genruntimeconfig.cache
 E:\Folder3\ServicesTests\obj\Debug\net6.0\ref\ServicesTests.dll
+E:\Folder3\ServicesTests\bin\Debug\net6.0\Npgsql.dll
+E:\Folder3\ServicesTests\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

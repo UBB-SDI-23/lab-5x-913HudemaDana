@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K75LKUnbcFy7HxQcBK9Zr2fX7qs7doklQF1uQ6hX9KfXtO0TwK7+44TqtuE7NW8s3hDxIaCTEVeJ1Mp6qzI7ng==",
+  "dgSpecHash": "7h6uj1mu7lWfbnQxdqSh9FJzsKG5EFI569Uk3CI/n+04qiHGHcKtOQ/x8cNDiC+xHfENn6sdI7L8xOOSXBQiJw==",
   "success": true,
   "projectFilePath": "E:\\Folder3\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,8 @@
     "C:\\Users\\dllov\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\nhibernate\\5.4.1\\nhibernate.5.4.1.nupkg.sha512",
+    "C:\\Users\\dllov\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\dllov\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.3\\npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\remotion.linq.eagerfetching\\2.2.0\\remotion.linq.eagerfetching.2.2.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

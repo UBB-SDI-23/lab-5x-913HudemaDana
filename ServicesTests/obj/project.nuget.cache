@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fIT1bc9pk0RVUTlQgtapU5p5K8nPLlPZj8BFLm8x9HQE13bLLqcc7g84pVorJKukxCBkifeaP4XxDbZuZd+0Jg==",
+  "dgSpecHash": "5aGvNvgtaxMnlJljFKki6BVasncsoUCMA9Apxxf2jCEavD9qusvQ83hUwcP4zcWnrCBRC7GeRKs/HGSVAOyl6w==",
   "success": true,
   "projectFilePath": "E:\\Folder3\\ServicesTests\\ServicesTests.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,8 @@
     "C:\\Users\\dllov\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\newtonsoft.json\\10.0.3\\newtonsoft.json.10.0.3.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\nhibernate\\5.4.1\\nhibernate.5.4.1.nupkg.sha512",
+    "C:\\Users\\dllov\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\dllov\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.3\\npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\remotion.linq.eagerfetching\\2.2.0\\remotion.linq.eagerfetching.2.2.0.nupkg.sha512",

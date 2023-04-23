@@ -17,6 +17,7 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
           "Services": "1.0.0",
           "ServicesTests": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
@@ -1022,6 +1023,32 @@
           }
         }
       },
+      "Npgsql/7.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "assemblyVersion": "7.0.2.0",
+            "fileVersion": "7.0.2.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.3",
+          "Npgsql": "7.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "7.0.3.0",
+            "fileVersion": "7.0.3.0"
+          }
+        }
+      },
       "NuGet.Frameworks/5.11.0": {
         "runtime": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {
@@ -1916,7 +1943,8 @@
         "dependencies": {
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3"
         },
         "runtime": {
           "DataAccess.dll": {}
@@ -2454,6 +2482,20 @@
       "sha512": "sha512-qitm9DSVqIOXgdv5tlCumZ50TEoTivlF/NfiqlBYBmQpPh8zteCaxBEIwnYwM+eRXmtmuNSnuZCg8rfmYKAfSg==",
       "path": "nhibernate/5.4.1",
       "hashPath": "nhibernate.5.4.1.nupkg.sha512"
+    },
+    "Npgsql/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/k12hfmg4PI0IU2UTLN6n0s/FKUfox8+RdWtzgADYZoyks7GH82WLyXm27eeqatsi/nmiK9lO3HyULlTD87szg==",
+      "path": "npgsql/7.0.2",
+      "hashPath": "npgsql.7.0.2.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3iVz7vcPAZt6iBSjJ8XyjtIP19jilNOJqTiTCs2UHWhpTyP+FbNhnzCBE/oyD3n49McmmenjKpva+yTy7q1z/g==",
+      "path": "npgsql.entityframeworkcore.postgresql/7.0.3",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512"
     },
     "NuGet.Frameworks/5.11.0": {
       "type": "package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KwId0hfLUGe+zUH/PHhhrPHoHbPUDOr3s8sdoqTgq8wTvlLt1QMUKfB+5FhZU/dK+Y+8BVEyG7lrPZ1j+LdrzQ==",
+  "dgSpecHash": "+oQfxBN6cbd0BbXuGTYJ+zFP6l73wPmBIERiZVptGrs31MRuJILQcjpf+8HHNiYaMcRMqgrQwErNJf2cnZkjww==",
   "success": true,
   "projectFilePath": "E:\\Folder3\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,8 @@
     "C:\\Users\\dllov\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\dllov\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\dllov\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.3\\npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\dllov\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
