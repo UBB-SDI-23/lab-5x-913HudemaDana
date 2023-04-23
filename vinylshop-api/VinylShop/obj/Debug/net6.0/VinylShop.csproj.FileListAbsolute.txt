@@ -1,0 +1,911 @@
+D:\VinylShop\VinylShop\bin\Debug\net6.0\appsettings.Development.json
+D:\VinylShop\VinylShop\bin\Debug\net6.0\appsettings.json
+D:\VinylShop\VinylShop\bin\Debug\net6.0\VinylShop.staticwebassets.runtime.json
+D:\VinylShop\VinylShop\bin\Debug\net6.0\VinylShop.exe
+D:\VinylShop\VinylShop\bin\Debug\net6.0\VinylShop.deps.json
+D:\VinylShop\VinylShop\bin\Debug\net6.0\VinylShop.runtimeconfig.json
+D:\VinylShop\VinylShop\bin\Debug\net6.0\VinylShop.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\VinylShop.pdb
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Azure.Core.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Azure.Identity.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Humanizer.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.CodeDom.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.Memory.Data.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.Text.Json.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\DataAccess.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Domain.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Services.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\DataAccess.pdb
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Services.pdb
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Domain.pdb
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.csproj.AssemblyReference.cache
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfoInputs.cache
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfo.cs
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CoreCompileInputs.cache
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cs
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cache
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cache
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cs
+D:\VinylShop\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.VinylShop.Microsoft.AspNetCore.StaticWebAssets.props
+D:\VinylShop\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.build.VinylShop.props
+D:\VinylShop\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VinylShop.props
+D:\VinylShop\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VinylShop.props
+D:\VinylShop\VinylShop\obj\Debug\net6.0\staticwebassets.pack.json
+D:\VinylShop\VinylShop\obj\Debug\net6.0\staticwebassets.build.json
+D:\VinylShop\VinylShop\obj\Debug\net6.0\staticwebassets.development.json
+D:\VinylShop\VinylShop\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\VinylShop\VinylShop\obj\Debug\net6.0\scopedcss\bundle\VinylShop.styles.css
+D:\VinylShop\VinylShop\obj\Debug\net6.0\scopedcss\projectbundle\VinylShop.bundle.scp.css
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CopyComplete
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.dll
+D:\VinylShop\VinylShop\obj\Debug\net6.0\refint\VinylShop.dll
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.pdb
+D:\VinylShop\VinylShop\obj\Debug\net6.0\VinylShop.genruntimeconfig.cache
+D:\VinylShop\VinylShop\obj\Debug\net6.0\ref\VinylShop.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Antlr3.Runtime.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Iesi.Collections.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\NHibernate.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Remotion.Linq.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\Remotion.Linq.EagerFetching.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\VinylShop\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\testhost.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ServicesTests.deps.json
+E:\MPP project\VinylShop\bin\Debug\net6.0\ServicesTests.runtimeconfig.json
+E:\MPP project\VinylShop\bin\Debug\net6.0\testhost.exe
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\appsettings.Development.json
+E:\MPP project\VinylShop\bin\Debug\net6.0\appsettings.json
+E:\MPP project\VinylShop\bin\Debug\net6.0\VinylShop.staticwebassets.runtime.json
+E:\MPP project\VinylShop\bin\Debug\net6.0\VinylShop.exe
+E:\MPP project\VinylShop\bin\Debug\net6.0\VinylShop.deps.json
+E:\MPP project\VinylShop\bin\Debug\net6.0\VinylShop.runtimeconfig.json
+E:\MPP project\VinylShop\bin\Debug\net6.0\VinylShop.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\VinylShop.pdb
+E:\MPP project\VinylShop\bin\Debug\net6.0\Antlr3.Runtime.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\AutoMapper.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Azure.Core.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Azure.Identity.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Castle.Core.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Humanizer.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Iesi.Collections.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Azure.AppConfiguration.AspNetCore.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Moq.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Moq.EntityFrameworkCore.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\NHibernate.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Remotion.Linq.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Remotion.Linq.EagerFetching.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.CodeDom.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.Memory.Data.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.Text.Json.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\DataAccess.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Domain.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\Services.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\ServicesTests.dll
+E:\MPP project\VinylShop\bin\Debug\net6.0\DataAccess.pdb
+E:\MPP project\VinylShop\bin\Debug\net6.0\ServicesTests.pdb
+E:\MPP project\VinylShop\bin\Debug\net6.0\Services.pdb
+E:\MPP project\VinylShop\bin\Debug\net6.0\Domain.pdb
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.csproj.AssemblyReference.cache
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfoInputs.cache
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfo.cs
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CoreCompileInputs.cache
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cs
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cache
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cache
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cs
+E:\MPP project\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.VinylShop.Microsoft.AspNetCore.StaticWebAssets.props
+E:\MPP project\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.build.VinylShop.props
+E:\MPP project\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VinylShop.props
+E:\MPP project\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VinylShop.props
+E:\MPP project\VinylShop\obj\Debug\net6.0\staticwebassets.pack.json
+E:\MPP project\VinylShop\obj\Debug\net6.0\staticwebassets.build.json
+E:\MPP project\VinylShop\obj\Debug\net6.0\staticwebassets.development.json
+E:\MPP project\VinylShop\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\MPP project\VinylShop\obj\Debug\net6.0\scopedcss\bundle\VinylShop.styles.css
+E:\MPP project\VinylShop\obj\Debug\net6.0\scopedcss\projectbundle\VinylShop.bundle.scp.css
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CopyComplete
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.dll
+E:\MPP project\VinylShop\obj\Debug\net6.0\refint\VinylShop.dll
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.pdb
+E:\MPP project\VinylShop\obj\Debug\net6.0\VinylShop.genruntimeconfig.cache
+E:\MPP project\VinylShop\obj\Debug\net6.0\ref\VinylShop.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\testhost.exe
+E:\Folder2\VinylShop\bin\Debug\net6.0\testhost.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\appsettings.Development.json
+E:\Folder2\VinylShop\bin\Debug\net6.0\appsettings.json
+E:\Folder2\VinylShop\bin\Debug\net6.0\ServicesTests.deps.json
+E:\Folder2\VinylShop\bin\Debug\net6.0\ServicesTests.runtimeconfig.json
+E:\Folder2\VinylShop\bin\Debug\net6.0\VinylShop.staticwebassets.runtime.json
+E:\Folder2\VinylShop\bin\Debug\net6.0\VinylShop.exe
+E:\Folder2\VinylShop\bin\Debug\net6.0\VinylShop.deps.json
+E:\Folder2\VinylShop\bin\Debug\net6.0\VinylShop.runtimeconfig.json
+E:\Folder2\VinylShop\bin\Debug\net6.0\VinylShop.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\VinylShop.pdb
+E:\Folder2\VinylShop\bin\Debug\net6.0\Antlr3.Runtime.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\AutoMapper.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Azure.Core.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Azure.Identity.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Castle.Core.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Humanizer.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Iesi.Collections.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Azure.AppConfiguration.AspNetCore.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Moq.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Moq.EntityFrameworkCore.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\NHibernate.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Remotion.Linq.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Remotion.Linq.EagerFetching.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.CodeDom.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.Text.Json.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\DataAccess.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Domain.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\Services.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\ServicesTests.dll
+E:\Folder2\VinylShop\bin\Debug\net6.0\DataAccess.pdb
+E:\Folder2\VinylShop\bin\Debug\net6.0\ServicesTests.pdb
+E:\Folder2\VinylShop\bin\Debug\net6.0\Services.pdb
+E:\Folder2\VinylShop\bin\Debug\net6.0\Domain.pdb
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.csproj.AssemblyReference.cache
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfoInputs.cache
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfo.cs
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CoreCompileInputs.cache
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cs
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cache
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cache
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cs
+E:\Folder2\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.VinylShop.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Folder2\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.build.VinylShop.props
+E:\Folder2\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VinylShop.props
+E:\Folder2\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VinylShop.props
+E:\Folder2\VinylShop\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Folder2\VinylShop\obj\Debug\net6.0\staticwebassets.build.json
+E:\Folder2\VinylShop\obj\Debug\net6.0\staticwebassets.development.json
+E:\Folder2\VinylShop\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Folder2\VinylShop\obj\Debug\net6.0\scopedcss\bundle\VinylShop.styles.css
+E:\Folder2\VinylShop\obj\Debug\net6.0\scopedcss\projectbundle\VinylShop.bundle.scp.css
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CopyComplete
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.dll
+E:\Folder2\VinylShop\obj\Debug\net6.0\refint\VinylShop.dll
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.pdb
+E:\Folder2\VinylShop\obj\Debug\net6.0\VinylShop.genruntimeconfig.cache
+E:\Folder2\VinylShop\obj\Debug\net6.0\ref\VinylShop.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\testhost.exe
+E:\Folder3\VinylShop\bin\Debug\net6.0\testhost.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\appsettings.Development.json
+E:\Folder3\VinylShop\bin\Debug\net6.0\ServicesTests.deps.json
+E:\Folder3\VinylShop\bin\Debug\net6.0\ServicesTests.runtimeconfig.json
+E:\Folder3\VinylShop\bin\Debug\net6.0\appsettings.json
+E:\Folder3\VinylShop\bin\Debug\net6.0\VinylShop.staticwebassets.runtime.json
+E:\Folder3\VinylShop\bin\Debug\net6.0\VinylShop.exe
+E:\Folder3\VinylShop\bin\Debug\net6.0\VinylShop.deps.json
+E:\Folder3\VinylShop\bin\Debug\net6.0\VinylShop.runtimeconfig.json
+E:\Folder3\VinylShop\bin\Debug\net6.0\VinylShop.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\VinylShop.pdb
+E:\Folder3\VinylShop\bin\Debug\net6.0\Antlr3.Runtime.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\AutoMapper.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Azure.Core.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Azure.Identity.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Castle.Core.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Humanizer.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Iesi.Collections.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Azure.AppConfiguration.AspNetCore.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Moq.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Moq.EntityFrameworkCore.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\NHibernate.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Remotion.Linq.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Remotion.Linq.EagerFetching.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.CodeDom.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.Text.Json.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\DataAccess.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Domain.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Services.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\ServicesTests.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\DataAccess.pdb
+E:\Folder3\VinylShop\bin\Debug\net6.0\ServicesTests.pdb
+E:\Folder3\VinylShop\bin\Debug\net6.0\Services.pdb
+E:\Folder3\VinylShop\bin\Debug\net6.0\Domain.pdb
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.csproj.AssemblyReference.cache
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfoInputs.cache
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfo.cs
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CoreCompileInputs.cache
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cs
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cache
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cache
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cs
+E:\Folder3\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.VinylShop.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Folder3\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.build.VinylShop.props
+E:\Folder3\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VinylShop.props
+E:\Folder3\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VinylShop.props
+E:\Folder3\VinylShop\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Folder3\VinylShop\obj\Debug\net6.0\staticwebassets.build.json
+E:\Folder3\VinylShop\obj\Debug\net6.0\staticwebassets.development.json
+E:\Folder3\VinylShop\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Folder3\VinylShop\obj\Debug\net6.0\scopedcss\bundle\VinylShop.styles.css
+E:\Folder3\VinylShop\obj\Debug\net6.0\scopedcss\projectbundle\VinylShop.bundle.scp.css
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CopyComplete
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.dll
+E:\Folder3\VinylShop\obj\Debug\net6.0\refint\VinylShop.dll
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.pdb
+E:\Folder3\VinylShop\obj\Debug\net6.0\VinylShop.genruntimeconfig.cache
+E:\Folder3\VinylShop\obj\Debug\net6.0\ref\VinylShop.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Npgsql.dll
+E:\Folder3\VinylShop\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\testhost.exe
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\testhost.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\appsettings.Development.json
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\appsettings.json
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ServicesTests.deps.json
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ServicesTests.runtimeconfig.json
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\VinylShop.staticwebassets.runtime.json
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\VinylShop.exe
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\VinylShop.deps.json
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\VinylShop.runtimeconfig.json
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\VinylShop.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\VinylShop.pdb
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Antlr3.Runtime.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\AutoMapper.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Azure.Core.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Azure.Identity.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Castle.Core.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Humanizer.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Iesi.Collections.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Azure.AppConfiguration.AspNetCore.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Moq.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Moq.EntityFrameworkCore.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\NHibernate.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Npgsql.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Remotion.Linq.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Remotion.Linq.EagerFetching.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.CodeDom.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.Text.Json.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\DataAccess.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Domain.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Services.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ServicesTests.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\DataAccess.pdb
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\ServicesTests.pdb
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Services.pdb
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Domain.pdb
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.csproj.AssemblyReference.cache
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfoInputs.cache
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfo.cs
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CoreCompileInputs.cache
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cs
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cache
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cache
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cs
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.VinylShop.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.build.VinylShop.props
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VinylShop.props
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VinylShop.props
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets.build.json
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets.development.json
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\scopedcss\bundle\VinylShop.styles.css
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\scopedcss\projectbundle\VinylShop.bundle.scp.css
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CopyComplete
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.dll
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\refint\VinylShop.dll
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.pdb
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.genruntimeconfig.cache
+E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\ref\VinylShop.dll

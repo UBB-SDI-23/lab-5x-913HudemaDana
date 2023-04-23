@@ -1,0 +1,85 @@
+D:\VinylShop\Services\bin\Debug\net6.0\Services.deps.json
+D:\VinylShop\Services\bin\Debug\net6.0\Services.dll
+D:\VinylShop\Services\bin\Debug\net6.0\Services.pdb
+D:\VinylShop\Services\bin\Debug\net6.0\DataAccess.dll
+D:\VinylShop\Services\bin\Debug\net6.0\Domain.dll
+D:\VinylShop\Services\bin\Debug\net6.0\DataAccess.pdb
+D:\VinylShop\Services\bin\Debug\net6.0\Domain.pdb
+D:\VinylShop\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+D:\VinylShop\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\VinylShop\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+D:\VinylShop\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+D:\VinylShop\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+D:\VinylShop\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+D:\VinylShop\Services\obj\Debug\net6.0\Services.dll
+D:\VinylShop\Services\obj\Debug\net6.0\refint\Services.dll
+D:\VinylShop\Services\obj\Debug\net6.0\Services.pdb
+D:\VinylShop\Services\obj\Debug\net6.0\ref\Services.dll
+E:\MPP project\Services\bin\Debug\net6.0\Services.deps.json
+E:\MPP project\Services\bin\Debug\net6.0\Services.dll
+E:\MPP project\Services\bin\Debug\net6.0\Services.pdb
+E:\MPP project\Services\bin\Debug\net6.0\DataAccess.dll
+E:\MPP project\Services\bin\Debug\net6.0\Domain.dll
+E:\MPP project\Services\bin\Debug\net6.0\DataAccess.pdb
+E:\MPP project\Services\bin\Debug\net6.0\Domain.pdb
+E:\MPP project\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+E:\MPP project\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\MPP project\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+E:\MPP project\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+E:\MPP project\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+E:\MPP project\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+E:\MPP project\Services\obj\Debug\net6.0\Services.dll
+E:\MPP project\Services\obj\Debug\net6.0\refint\Services.dll
+E:\MPP project\Services\obj\Debug\net6.0\Services.pdb
+E:\MPP project\Services\obj\Debug\net6.0\ref\Services.dll
+E:\Folder2\Services\bin\Debug\net6.0\Services.deps.json
+E:\Folder2\Services\bin\Debug\net6.0\Services.dll
+E:\Folder2\Services\bin\Debug\net6.0\Services.pdb
+E:\Folder2\Services\bin\Debug\net6.0\DataAccess.dll
+E:\Folder2\Services\bin\Debug\net6.0\Domain.dll
+E:\Folder2\Services\bin\Debug\net6.0\DataAccess.pdb
+E:\Folder2\Services\bin\Debug\net6.0\Domain.pdb
+E:\Folder2\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+E:\Folder2\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Folder2\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+E:\Folder2\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+E:\Folder2\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+E:\Folder2\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+E:\Folder2\Services\obj\Debug\net6.0\Services.dll
+E:\Folder2\Services\obj\Debug\net6.0\refint\Services.dll
+E:\Folder2\Services\obj\Debug\net6.0\Services.pdb
+E:\Folder2\Services\obj\Debug\net6.0\ref\Services.dll
+E:\Folder3\Services\bin\Debug\net6.0\Services.deps.json
+E:\Folder3\Services\bin\Debug\net6.0\Services.dll
+E:\Folder3\Services\bin\Debug\net6.0\Services.pdb
+E:\Folder3\Services\bin\Debug\net6.0\DataAccess.dll
+E:\Folder3\Services\bin\Debug\net6.0\Domain.dll
+E:\Folder3\Services\bin\Debug\net6.0\DataAccess.pdb
+E:\Folder3\Services\bin\Debug\net6.0\Domain.pdb
+E:\Folder3\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+E:\Folder3\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Folder3\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+E:\Folder3\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+E:\Folder3\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+E:\Folder3\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+E:\Folder3\Services\obj\Debug\net6.0\Services.dll
+E:\Folder3\Services\obj\Debug\net6.0\refint\Services.dll
+E:\Folder3\Services\obj\Debug\net6.0\Services.pdb
+E:\Folder3\Services\obj\Debug\net6.0\ref\Services.dll
+E:\Folder3\vinylshop-api\Services\bin\Debug\net6.0\Services.deps.json
+E:\Folder3\vinylshop-api\Services\bin\Debug\net6.0\Services.dll
+E:\Folder3\vinylshop-api\Services\bin\Debug\net6.0\Services.pdb
+E:\Folder3\vinylshop-api\Services\bin\Debug\net6.0\DataAccess.dll
+E:\Folder3\vinylshop-api\Services\bin\Debug\net6.0\Domain.dll
+E:\Folder3\vinylshop-api\Services\bin\Debug\net6.0\DataAccess.pdb
+E:\Folder3\vinylshop-api\Services\bin\Debug\net6.0\Domain.pdb
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\Services.dll
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\refint\Services.dll
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\Services.pdb
+E:\Folder3\vinylshop-api\Services\obj\Debug\net6.0\ref\Services.dll

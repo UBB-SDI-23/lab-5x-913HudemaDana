@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\VinylShop"
   ],
-  "SelectedNode": "\\VinylShop.sln",
+  "SelectedNode": "\\VinylShop\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }
