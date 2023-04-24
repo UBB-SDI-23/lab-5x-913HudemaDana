@@ -19,6 +19,7 @@ builder.Services.AddCors(options =>
                  .AllowCredentials();
         });
 });
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
 builder.Services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
@@ -26,11 +27,15 @@ builder.Services.AddControllers().AddNewtonsoftJson(options =>
 //builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//        options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnection")));
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnection")));
+    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("MySqlConnection"))));
 
 var config = new AutoMapper.MapperConfiguration(options =>
     options.AddProfile(new ApplicationProfile()));
+
 var mapper = config.CreateMapper();
 builder.Services.AddSingleton(mapper);
 
@@ -47,6 +52,12 @@ builder.Services.AddSwaggerGen();
 
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    dbContext.Database.Migrate();
+}
 
 app.UseCors("Allow all");
 
