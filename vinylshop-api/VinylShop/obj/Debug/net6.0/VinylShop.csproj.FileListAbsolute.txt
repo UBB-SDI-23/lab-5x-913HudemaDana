@@ -909,3 +909,17 @@ E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\refint\VinylShop.dll
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.pdb
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.genruntimeconfig.cache
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\ref\VinylShop.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Google.Protobuf.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\MySql.Data.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\MySqlConnector.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\System.IO.Pipelines.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll

@@ -27,11 +27,11 @@ builder.Services.AddControllers().AddNewtonsoftJson(options =>
 //builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//        options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnection")));
-
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("MySqlConnection"))));
+       options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnection")));
+
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("MySqlConnection"))));
 
 var config = new AutoMapper.MapperConfiguration(options =>
     options.AddProfile(new ApplicationProfile()));
