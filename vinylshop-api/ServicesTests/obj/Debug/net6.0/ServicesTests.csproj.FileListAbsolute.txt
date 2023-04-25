@@ -493,8 +493,8 @@ E:\Folder3\ServicesTests\obj\Debug\net6.0\ref\ServicesTests.dll
 E:\Folder3\ServicesTests\bin\Debug\net6.0\Npgsql.dll
 E:\Folder3\ServicesTests\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\CoverletSourceRootsMapping
-E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\testhost.exe
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\testhost.dll
+E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\testhost.exe
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
