@@ -905,8 +905,6 @@ E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.AssemblyInfo.cs
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CoreCompileInputs.cache
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cs
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.MvcApplicationPartsAssemblyInfo.cache
-E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cache
-E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cs
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.VinylShop.Microsoft.AspNetCore.StaticWebAssets.props
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.build.VinylShop.props
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VinylShop.props
@@ -914,9 +912,7 @@ E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets\msbuild.buil
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets.pack.json
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets.build.json
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\staticwebassets.development.json
-E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\scopedcss\bundle\VinylShop.styles.css
-E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\scopedcss\projectbundle\VinylShop.bundle.scp.css
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.csproj.CopyComplete
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\VinylShop.dll
 E:\Folder3\vinylshop-api\VinylShop\obj\Debug\net6.0\refint\VinylShop.dll

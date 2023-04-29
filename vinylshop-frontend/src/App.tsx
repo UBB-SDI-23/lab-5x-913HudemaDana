@@ -6,6 +6,8 @@ import { AllVinyls } from "./components/vinyls/AllVinyls";
 import { VinylDetails } from "./components/vinyls/VinylDetails";
 import { VinylDelete } from "./components/vinyls/VinylDelete";
 import { VinylAdd } from "./components/vinyls/VinylAdd";
+import { AllAlbums } from "./components/albums/AllAlbums";
+import { VinylUpdate } from "./components/vinyls/VinylUpdate";
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
         <Route path="/" element={<AppHome />} />
         <Route path="/vinyls" element={<AllVinyls />} />
         <Route path="/vinyls/:vinylId/details" element={<VinylDetails />} />
-        <Route path="/vinyls/:vinylId/edit" element={<VinylDetails />} />
+        <Route path="/vinyls/:vinylId/edit" element={<VinylUpdate />} />
         <Route path="/vinyls/:vinylId/delete" element={<VinylDelete />} />
         <Route path="/vinyls/add" element={<VinylAdd />} />
+        <Route path="/albums" element={<AllAlbums />} />
       </Routes>
     </React.Fragment>
   );

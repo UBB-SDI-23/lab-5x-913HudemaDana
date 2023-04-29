@@ -32,7 +32,8 @@ namespace Services
                 Size = vinyl.Size,
                 Groove = vinyl.Groove,
                 Speed = vinyl.Speed,
-                Condition = vinyl.Condition
+                Condition = vinyl.Condition,
+                Material = vinyl.Material
             });
 
             return vinylListDto.ToList() ?? new List<VinylDto>();
@@ -53,7 +54,8 @@ namespace Services
                 Groove = vinyl.Groove,
                 Speed = vinyl.Speed,
                 Condition = vinyl.Condition,
-                Stocks = stocks
+                Stocks = stocks,
+                Material = vinyl.Material
 
             } : null);
         }
@@ -71,7 +73,8 @@ namespace Services
                 Size = vinyl.Size,
                 Groove = vinyl.Groove,
                 Speed = vinyl.Speed,
-                Condition = vinyl.Condition
+                Condition = vinyl.Condition,
+                Material = vinyl?.Material
             };
             await _context.Vinyls.AddAsync(newVinyl);
             await _context.SaveChangesAsync();

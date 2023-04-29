@@ -20,7 +20,7 @@ export const VinylDelete = () => {
 
   const handleDelete = async (event: { preventDefault: () => void }) => {
     event.preventDefault();
-    await axios.delete(`${BACKEND_API_URL}/vinyls/${vinylId}`);
+    await axios.delete(`${BACKEND_API_URL}/vinyls/deleteVinyl/${vinylId}`);
     // go to vinyls list
     navigate("/vinyls");
   };

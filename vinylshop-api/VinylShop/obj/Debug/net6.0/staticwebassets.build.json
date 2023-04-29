@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rt2TxXf9nJmrIGaew0f7O+fFqwoO9XA+yUnblO5ELrM=",
+  "Hash": "JRbs8mqAsnSHlF5x1xc40SwZpemxYrnMoT6PMLkr854=",
   "Source": "VinylShop",
   "BasePath": "_content/VinylShop",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "E:\\Folder3\\vinylshop-api\\VinylShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\VinylShop.styles.css",
-      "SourceId": "VinylShop",
-      "SourceType": "Computed",
-      "ContentRoot": "E:\\Folder3\\vinylshop-api\\VinylShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/VinylShop",
-      "RelativePath": "VinylShop.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Folder3\\vinylshop-api\\VinylShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\VinylShop.styles.css"
-    },
-    {
-      "Identity": "E:\\Folder3\\vinylshop-api\\VinylShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\VinylShop.bundle.scp.css",
-      "SourceId": "VinylShop",
-      "SourceType": "Computed",
-      "ContentRoot": "E:\\Folder3\\vinylshop-api\\VinylShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/VinylShop",
-      "RelativePath": "VinylShop.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Folder3\\vinylshop-api\\VinylShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\VinylShop.bundle.scp.css"
-    },
     {
       "Identity": "E:\\Folder3\\vinylshop-api\\VinylShop\\wwwroot\\css\\site.css",
       "SourceId": "VinylShop",

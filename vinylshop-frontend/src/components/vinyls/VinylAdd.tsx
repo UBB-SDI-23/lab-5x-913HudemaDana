@@ -43,6 +43,7 @@ export const VinylAdd = () => {
       );
       const data = await response.data;
       setAlbums(data);
+      console.log(albums);
     } catch (error) {
       console.error("Error fetching suggestions:", error);
     }
@@ -62,7 +63,7 @@ export const VinylAdd = () => {
   const addVinyl = async (event: { preventDefault: () => void }) => {
     event.preventDefault();
     try {
-      await axios.post(`${BACKEND_API_URL}/vinyls/`, vinyl);
+      await axios.post(`${BACKEND_API_URL}/vinyls/addVinyl`, vinyl);
       navigate("/vinyls");
     } catch (error) {
       console.log(error);
@@ -78,7 +79,13 @@ export const VinylAdd = () => {
   };
 
   return (
-    <Container sx={{ padding: "70px" }}>
+    <Container
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        padding: "5em",
+      }}
+    >
       <Card>
         <CardContent>
           <IconButton component={Link} sx={{ mr: 3, mb: 3 }} to={`/vinyls`}>

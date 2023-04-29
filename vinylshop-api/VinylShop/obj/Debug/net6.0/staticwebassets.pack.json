@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "E:\\Folder3\\vinylshop-api\\VinylShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\VinylShop.bundle.scp.css",
-      "PackagePath": "staticwebassets\\VinylShop.bundle.scp.css"
-    },
-    {
       "Id": "E:\\Folder3\\vinylshop-api\\VinylShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

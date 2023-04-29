@@ -22,6 +22,22 @@ export const AppMenu = () => {
         <Toolbar sx={{ display: "flex", justifyContent: "center" }}>
           <Button
             disableRipple
+            to="/albums"
+            component={Link}
+            color="inherit"
+            sx={{
+              mr: 2,
+              color: "black",
+              "&:hover": {
+                color: "black",
+                backgroundColor: "#d2c4b4",
+              },
+            }}
+          >
+            Albums
+          </Button>
+          <Button
+            disableRipple
             to="/vinyls"
             component={Link}
             color="inherit"
