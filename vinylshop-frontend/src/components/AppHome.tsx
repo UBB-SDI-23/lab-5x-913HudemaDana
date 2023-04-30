@@ -12,7 +12,6 @@ export const AppHome = () => {
       <CssBaseline />
 
       <Container
-        maxWidth=""
         sx={{
           display: "flex",
           flexDirection: "column",
@@ -20,6 +19,7 @@ export const AppHome = () => {
           backgroundColor: "#250001",
           padding: "5em",
           height: "100vh",
+          maxWidth: "100em!important",
         }}
       >
         <img src={vinylsPng}></img>

@@ -92,7 +92,6 @@ export const AppMenu = () => {
             Add Vinyl
           </Button>
         </Toolbar>
-        <Container sx={{ backgroundColor: "white" }}></Container>
       </AppBar>
     </Box>
   );

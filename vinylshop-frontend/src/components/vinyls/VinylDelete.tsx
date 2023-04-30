@@ -33,11 +33,11 @@ export const VinylDelete = () => {
 
   return (
     <Container
-      maxWidth=""
       sx={{
         display: "flex",
         justifyContent: "center",
         padding: "15em",
+        maxWidth: "100em!important",
       }}
     >
       <Card>
