@@ -3,8 +3,8 @@ using System;
 using DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
@@ -18,193 +18,344 @@ namespace DataAccess.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "7.0.3")
-                .HasAnnotation("Relational:MaxIdentifierLength", 63);
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("Domain.Models.Album", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int?>("ArtistId")
-                        .HasColumnType("integer");
-
-                    b.Property<int?>("BandId")
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
                     b.Property<string>("Lyrics")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("RealiseDate")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.HasIndex("ArtistId");
 
-                    b.HasIndex("BandId");
-
                     b.ToTable("Albums");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ArtistId = 2,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "Back in Black"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ArtistId = 3,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "Thriller"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ArtistId = 4,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "Rumours"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ArtistId = 2,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "The Joshua Tree"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ArtistId = 7,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "Nevermind"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            ArtistId = 8,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "Abbey Road"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            ArtistId = 9,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "Purple Rain"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            ArtistId = 9,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "The Chronic"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            ArtistId = 5,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "In Utero"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            ArtistId = 1,
+                            Lyrics = "You Shook Me All Night Long",
+                            Name = "Blonde on Blonde"
+                        });
                 });
 
             modelBuilder.Entity("Domain.Models.Artist", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("ActiveYears")
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
                     b.Property<int?>("Age")
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nationality")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Artists");
-                });
 
-            modelBuilder.Entity("Domain.Models.Band", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Description")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("text");
-
-                    b.Property<int?>("NumberOfAwards")
-                        .HasColumnType("integer");
-
-                    b.Property<int?>("NumberOfMembers")
-                        .HasColumnType("integer");
-
-                    b.Property<DateTime?>("StartDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Bands");
-                });
-
-            modelBuilder.Entity("Domain.Models.Contract", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("ArtistId")
-                        .HasColumnType("integer");
-
-                    b.Property<int?>("BandId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Duration")
-                        .HasColumnType("text");
-
-                    b.Property<int?>("RecordLabelId")
-                        .HasColumnType("integer");
-
-                    b.Property<DateTime?>("StartDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ArtistId");
-
-                    b.HasIndex("BandId");
-
-                    b.HasIndex("RecordLabelId");
-
-                    b.ToTable("Contracts");
-                });
-
-            modelBuilder.Entity("Domain.Models.RecordLabel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Description")
-                        .HasColumnType("text");
-
-                    b.Property<int?>("Gendre")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("RecordLabels");
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ActiveYears = 1880,
+                            Age = 37,
+                            Description = "nothing to be known",
+                            FirstName = "Vincent",
+                            LastName = "van Gogh",
+                            Nationality = "Dutch"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ActiveYears = 1890,
+                            Age = 91,
+                            Description = "nothing to be known",
+                            FirstName = "Pablo",
+                            LastName = "Picasso",
+                            Nationality = "Spanish"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ActiveYears = 1858,
+                            Age = 86,
+                            Description = "nothing to be known",
+                            FirstName = "Claude",
+                            LastName = "Monet",
+                            Nationality = "French"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ActiveYears = 1472,
+                            Age = 67,
+                            Description = "nothing to be known",
+                            FirstName = "Leonardo",
+                            LastName = "da Vinci",
+                            Nationality = "Italian"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ActiveYears = 1494,
+                            Age = 88,
+                            Description = "nothing to be known",
+                            FirstName = "Michelangelo",
+                            LastName = "Buonarroti",
+                            Nationality = "Italian"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            ActiveYears = 1919,
+                            Age = 84,
+                            Description = "nothing to be known",
+                            FirstName = "Salvador",
+                            LastName = "Dali",
+                            Nationality = "Spanish"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            ActiveYears = 1625,
+                            Age = 63,
+                            Description = "nothing to be known",
+                            FirstName = "Rembrandt",
+                            LastName = "van Rijn",
+                            Nationality = "Dutch"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            ActiveYears = 1880,
+                            Age = 80,
+                            Description = "nothing to be known",
+                            FirstName = "Edvard",
+                            LastName = "Munch",
+                            Nationality = "Norwegian"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            ActiveYears = 1947,
+                            Age = 44,
+                            Description = "nothing to be known",
+                            FirstName = "Jackson",
+                            LastName = "Pollock",
+                            Nationality = "American"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            ActiveYears = 1880,
+                            Age = 55,
+                            Description = "nothing to be known",
+                            FirstName = "Gustav",
+                            LastName = "Klimt",
+                            Nationality = "Austrian"
+                        });
                 });
 
             modelBuilder.Entity("Domain.Models.Shop", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
                         .HasMaxLength(100)
-                        .HasColumnType("character varying(100)");
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Town")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Shops");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "123 Main St",
+                            Town = "New York"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Address = "456 Elm St",
+                            Town = "Los Angeles"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Address = "789 Oak St",
+                            Town = "Chicago"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Address = "1011 Maple St",
+                            Town = "Houston"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Address = "1213 Pine St",
+                            Town = "Phoenix"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Address = "1415 Birch St",
+                            Town = "Philadelphia"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Address = "1617 Cedar St",
+                            Town = "San Antonio"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Address = "1819 Walnut St",
+                            Town = "San Diego"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Address = "2021 Chestnut St",
+                            Town = "Dallas"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Address = "2223 Maple St",
+                            Town = "San Jose"
+                        });
                 });
 
             modelBuilder.Entity("Domain.Models.Stock", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AvailableVinyls")
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
                     b.Property<int>("Price")
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
                     b.Property<int>("ShopId")
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
                     b.Property<int>("VinylId")
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -213,45 +364,273 @@ namespace DataAccess.Migrations
                     b.HasIndex("VinylId");
 
                     b.ToTable("Stocks");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AvailableVinyls = 10,
+                            Price = 1299,
+                            ShopId = 1,
+                            VinylId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AvailableVinyls = 5,
+                            Price = 899,
+                            ShopId = 2,
+                            VinylId = 3
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AvailableVinyls = 7,
+                            Price = 1999,
+                            ShopId = 3,
+                            VinylId = 2
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AvailableVinyls = 20,
+                            Price = 1499,
+                            ShopId = 4,
+                            VinylId = 4
+                        },
+                        new
+                        {
+                            Id = 5,
+                            AvailableVinyls = 12,
+                            Price = 499,
+                            ShopId = 5,
+                            VinylId = 5
+                        },
+                        new
+                        {
+                            Id = 6,
+                            AvailableVinyls = 8,
+                            Price = 799,
+                            ShopId = 6,
+                            VinylId = 6
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AvailableVinyls = 15,
+                            Price = 1099,
+                            ShopId = 7,
+                            VinylId = 7
+                        },
+                        new
+                        {
+                            Id = 8,
+                            AvailableVinyls = 3,
+                            Price = 599,
+                            ShopId = 8,
+                            VinylId = 8
+                        },
+                        new
+                        {
+                            Id = 9,
+                            AvailableVinyls = 18,
+                            Price = 2499,
+                            ShopId = 9,
+                            VinylId = 9
+                        },
+                        new
+                        {
+                            Id = 10,
+                            AvailableVinyls = 25,
+                            Price = 1699,
+                            ShopId = 10,
+                            VinylId = 10
+                        });
                 });
 
             modelBuilder.Entity("Domain.Models.Vinyl", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AlbumId")
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
                     b.Property<string>("Condition")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("Durablility")
-                        .HasColumnType("integer");
+                        .HasColumnType("int");
 
                     b.Property<string>("Edition")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Groove")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Material")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<long?>("Size")
                         .HasColumnType("bigint");
 
                     b.Property<string>("Speed")
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("AlbumId");
 
                     b.ToTable("Vinyls");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AlbumId = 1,
+                            Condition = "Mint",
+                            Durablility = 8,
+                            Edition = "1",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 12L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AlbumId = 2,
+                            Condition = "Very Good",
+                            Durablility = 6,
+                            Edition = "2",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 12L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AlbumId = 3,
+                            Condition = "Near Mint",
+                            Durablility = 7,
+                            Edition = "3",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 10L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AlbumId = 4,
+                            Condition = "Good",
+                            Durablility = 5,
+                            Edition = "4",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 12L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            AlbumId = 5,
+                            Condition = "Very Good",
+                            Durablility = 7,
+                            Edition = "5",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 12L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            AlbumId = 6,
+                            Condition = "Near Mint",
+                            Durablility = 8,
+                            Edition = "7",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 12L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AlbumId = 7,
+                            Condition = "Mint",
+                            Durablility = 9,
+                            Edition = "8",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 7L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            AlbumId = 8,
+                            Condition = "Good",
+                            Durablility = 6,
+                            Edition = "6",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 12L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            AlbumId = 12,
+                            Condition = "Very Good",
+                            Durablility = 4,
+                            Edition = "9",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 12L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            AlbumId = 13,
+                            Condition = "Near Mint",
+                            Durablility = 7,
+                            Edition = "10",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 10L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            AlbumId = 1,
+                            Condition = "Good",
+                            Durablility = 3,
+                            Edition = "11",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 7L,
+                            Speed = "45 RPM"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            AlbumId = 1,
+                            Condition = "Not Good",
+                            Durablility = 2,
+                            Edition = "12",
+                            Groove = "",
+                            Material = "Vinyl",
+                            Size = 7L,
+                            Speed = "45 RPM"
+                        });
                 });
 
             modelBuilder.Entity("Domain.Models.Album", b =>
@@ -260,36 +639,7 @@ namespace DataAccess.Migrations
                         .WithMany("Albums")
                         .HasForeignKey("ArtistId");
 
-                    b.HasOne("Domain.Models.Band", "Band")
-                        .WithMany("Albums")
-                        .HasForeignKey("BandId");
-
                     b.Navigation("Artist");
-
-                    b.Navigation("Band");
-                });
-
-            modelBuilder.Entity("Domain.Models.Contract", b =>
-                {
-                    b.HasOne("Domain.Models.Artist", "Artist")
-                        .WithMany("Contracts")
-                        .HasForeignKey("ArtistId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Domain.Models.Band", "Band")
-                        .WithMany("Contracts")
-                        .HasForeignKey("BandId");
-
-                    b.HasOne("Domain.Models.RecordLabel", "RecordLabel")
-                        .WithMany("Contracts")
-                        .HasForeignKey("RecordLabelId");
-
-                    b.Navigation("Artist");
-
-                    b.Navigation("Band");
-
-                    b.Navigation("RecordLabel");
                 });
 
             modelBuilder.Entity("Domain.Models.Stock", b =>
@@ -330,20 +680,6 @@ namespace DataAccess.Migrations
             modelBuilder.Entity("Domain.Models.Artist", b =>
                 {
                     b.Navigation("Albums");
-
-                    b.Navigation("Contracts");
-                });
-
-            modelBuilder.Entity("Domain.Models.Band", b =>
-                {
-                    b.Navigation("Albums");
-
-                    b.Navigation("Contracts");
-                });
-
-            modelBuilder.Entity("Domain.Models.RecordLabel", b =>
-                {
-                    b.Navigation("Contracts");
                 });
 
             modelBuilder.Entity("Domain.Models.Shop", b =>

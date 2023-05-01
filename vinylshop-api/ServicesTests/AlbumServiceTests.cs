@@ -30,16 +30,16 @@ namespace ServicesTests
             //arrange
             var albums = new List<Album>
             {
-                new Album(){Id = 1, Name = "Back in Black",     Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 2,   ArtistId = 2 },
-                new Album(){Id = 2, Name = "Thriller",          Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 2,   ArtistId = 3 },
-                new Album(){Id = 3, Name = "Rumours",           Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = null,ArtistId = 4 },
-                new Album(){Id = 4, Name = "The Joshua Tree",   Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 5,   ArtistId = null },
-                new Album(){Id = 5, Name = "Nevermind",         Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 6,   ArtistId = 7 },
-                new Album(){Id = 6, Name = "Abbey Road",        Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 8,   ArtistId = null },
-                new Album(){Id = 7, Name = "Purple Rain",       Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 8,   ArtistId = 9 },
-                new Album(){Id = 8, Name = "The Chronic",       Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = null,ArtistId = 9 },
-                new Album(){Id = 12,Name = "In Utero",          Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 9,   ArtistId = 11 },
-                new Album(){Id = 13,Name = "Blonde on Blonde",  Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 1,  ArtistId = null }
+                new Album(){Id = 1, Name = "Back in Black",     Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = 2 },
+                new Album(){Id = 2, Name = "Thriller",          Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = 3 },
+                new Album(){Id = 3, Name = "Rumours",           Lyrics = "You Shook Me All Night Long",RealiseDate = null,ArtistId = 4 },
+                new Album(){Id = 4, Name = "The Joshua Tree",   Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = null },
+                new Album(){Id = 5, Name = "Nevermind",         Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = 7 },
+                new Album(){Id = 6, Name = "Abbey Road",        Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = null },
+                new Album(){Id = 7, Name = "Purple Rain",       Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = 9 },
+                new Album(){Id = 8, Name = "The Chronic",       Lyrics = "You Shook Me All Night Long",RealiseDate = null,ArtistId = 9 },
+                new Album(){Id = 12,Name = "In Utero",          Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = 11 },
+                new Album(){Id = 13,Name = "Blonde on Blonde",  Lyrics = "You Shook Me All Night Long",RealiseDate = null,  ArtistId = null }
             };
             var vinyls = new List<Vinyl>
             {
@@ -74,16 +74,16 @@ namespace ServicesTests
             //arrange
             var albums = new List<Album>
             {
-                new Album(){Id = 1, Name = "Back in Black",     Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 2,   ArtistId = 2 },
-                new Album(){Id = 2, Name = "Thriller",          Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 2,   ArtistId = 3 },
-                new Album(){Id = 3, Name = "Rumours",           Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = null,ArtistId = 4 },
-                new Album(){Id = 4, Name = "The Joshua Tree",   Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 5,   ArtistId = null },
-                new Album(){Id = 5, Name = "Nevermind",         Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 6,   ArtistId = 7 },
-                new Album(){Id = 6, Name = "Abbey Road",        Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 8,   ArtistId = null },
-                new Album(){Id = 7, Name = "Purple Rain",       Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 8,   ArtistId = 9 },
-                new Album(){Id = 8, Name = "The Chronic",       Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = null,ArtistId = 9 },
-                new Album(){Id = 12,Name = "In Utero",          Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 9,   ArtistId = 11 },
-                new Album(){Id = 13,Name = "Blonde on Blonde",  Lyrics = "You Shook Me All Night Long",RealiseDate = null,BandId = 1,  ArtistId = null }
+                new Album(){Id = 1, Name = "Back in Black",     Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = 2 },
+                new Album(){Id = 2, Name = "Thriller",          Lyrics = "You Shook Me All Night Long",RealiseDate = null,  ArtistId = 3 },
+                new Album(){Id = 3, Name = "Rumours",           Lyrics = "You Shook Me All Night Long",RealiseDate = null,ArtistId = 4 },
+                new Album(){Id = 4, Name = "The Joshua Tree",   Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = null },
+                new Album(){Id = 5, Name = "Nevermind",         Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = 7 },
+                new Album(){Id = 6, Name = "Abbey Road",        Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = null },
+                new Album(){Id = 7, Name = "Purple Rain",       Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = 9 },
+                new Album(){Id = 8, Name = "The Chronic",       Lyrics = "You Shook Me All Night Long",RealiseDate = null,ArtistId = 9 },
+                new Album(){Id = 12,Name = "In Utero",          Lyrics = "You Shook Me All Night Long",RealiseDate = null,   ArtistId = 11 },
+                new Album(){Id = 13,Name = "Blonde on Blonde",  Lyrics = "You Shook Me All Night Long",RealiseDate = null,  ArtistId = null }
             };
 
             var vinyls = new List<Vinyl>

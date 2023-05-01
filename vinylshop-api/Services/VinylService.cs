@@ -20,10 +20,9 @@ namespace Services
         {
             _context = context;
         }
-        public async Task<IList<VinylDto>> GetAllVinyls(string afterCursor, string beforeCursor, int pageSize)
+        public async Task<IList<VinylDto>> GetAllVinyls()
         {
             var vinylList = _context.Vinyls
-                .AsQueryable()
                 .Select(vinyl => new VinylDto()
             {
                 Id = vinyl.Id,

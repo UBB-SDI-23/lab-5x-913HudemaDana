@@ -25,7 +25,8 @@ namespace Services
                 LastName = artist.LastName,
                 Age = artist.Age,
                 Nationality = artist.Nationality,
-                ActiveYears = artist.ActiveYears
+                ActiveYears = artist.ActiveYears,
+                Description = artist.Description
             });
 
             return artistListDto.ToList() ?? new List<ArtistDto>();
@@ -44,6 +45,7 @@ namespace Services
                 Age = artist.Age,
                 Nationality = artist.Nationality,
                 ActiveYears = artist.ActiveYears,
+                Description = artist.Description,
                 Albums = albums
             }) : null);
         }
@@ -55,7 +57,8 @@ namespace Services
                 LastName = artist.LastName,
                 Age = artist.Age,
                 Nationality = artist.Nationality,
-                ActiveYears = artist.ActiveYears
+                ActiveYears = artist.ActiveYears,
+                Description = artist.Description
             };
             await _context.Artists.AddAsync(newArtist);
             await _context.SaveChangesAsync();
@@ -80,6 +83,7 @@ namespace Services
                 artist.Age = newArtist.Age;
                 artist.Nationality = newArtist.Nationality;
                 artist.ActiveYears = newArtist.ActiveYears;
+                artist.Description = newArtist.Description;
 
                 _context.Artists.Update(artist);
             }

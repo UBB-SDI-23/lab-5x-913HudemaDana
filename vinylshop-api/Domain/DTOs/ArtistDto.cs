@@ -19,5 +19,6 @@ namespace Domain.DTOs
         public int? Age { get; set; }
         public string? Nationality { get; set; }
         public int ActiveYears { get; set; }
+        public string Description { get; set; }
     }
 }

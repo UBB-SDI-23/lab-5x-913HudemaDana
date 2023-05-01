@@ -1,4 +1,3 @@
-import { Contract } from './Contract';
 import { Album } from './Album';
 
 export interface Artist {
@@ -8,6 +7,5 @@ export interface Artist {
   age?: number;
   nationality?: string;
   activeYears?: number;
-  contracts?: Contract[];
   albums?: Album[];
 }

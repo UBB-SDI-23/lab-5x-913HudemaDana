@@ -24,6 +24,8 @@ namespace Domain.Models
 
         [Range(1, int.MaxValue, ErrorMessage = "Please enter a value bigger than {1}")]
         public int ActiveYears { get; set; } = 0;
+
+        public string Description { get; set; } = "nothing to be known";
         public virtual ICollection<Album>? Albums { get; set; } = null!;
 
     }

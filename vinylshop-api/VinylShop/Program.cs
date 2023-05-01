@@ -33,15 +33,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("MySqlConnection"))));
 
 builder.Services.AddScoped<IArtistService, ArtistService>();
-builder.Services.AddScoped<IBandService, BandService>();
-builder.Services.AddScoped<IContractService, ContractService>();
-builder.Services.AddScoped<IRecordLabelService, RecordLabelService>();
 builder.Services.AddScoped<IShopService, ShopService>();
 builder.Services.AddScoped<IStockService, StockService>();
 builder.Services.AddScoped<IAlbumService, AlbumService>();
 builder.Services.AddScoped<IVinylService, VinylService>();
 
-//builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen();
 
 
 var app = builder.Build();
@@ -54,8 +51,8 @@ var app = builder.Build();
 
 app.UseCors("Allow all");
 
-//app.UseSwagger();
-//app.UseSwaggerUI();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
