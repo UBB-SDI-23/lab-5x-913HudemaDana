@@ -33,7 +33,6 @@ namespace Services
         public async Task<Artist?> GetArtistById(int id)
         {
             var artist = await _context.Artists.SingleOrDefaultAsync(a => a.Id == id);
-            var contractsEntities = await _context.Contracts.Where(c => c.ArtistId == id).ToListAsync();
             var albums = await _context.Albums.Where(c => c.ArtistId == id).ToListAsync();
             
 
@@ -45,8 +44,7 @@ namespace Services
                 Age = artist.Age,
                 Nationality = artist.Nationality,
                 ActiveYears = artist.ActiveYears,
-                Albums = albums,
-                Contracts = contractsEntities
+                Albums = albums
             }) : null);
         }
         public async Task AddArtist(ArtistDto artist)  

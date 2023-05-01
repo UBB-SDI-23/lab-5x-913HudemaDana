@@ -11,6 +11,8 @@ import {
   IconButton,
   Tooltip,
   Button,
+  Card,
+  CardContent,
 } from "@mui/material";
 import React from "react";
 import { useEffect, useState } from "react";
@@ -28,6 +30,27 @@ export const AllVinyls = () => {
   const [loading, setLoading] = useState(false);
   const [vinyls, setVinyls] = useState<Vinyl[]>([]);
   const [albums, setAlbums] = useState<Album[]>([]);
+  const [sortDone, setSortDone] = useState(false);
+
+  const handleSort = async (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    const vinylData = await fetchVinyl();
+
+    if (!sortDone) {
+      setVinyls(
+        vinylData.sort((a, b) => {
+          if (a.durablility === null || a.durablility === undefined) return 1;
+          if (b.durablility === null || b.durablility === undefined) return -1;
+          if (a.durablility === b.durablility) return 0;
+          return a.durablility < b.durablility ? -1 : 1;
+        })
+      );
+      setSortDone(true);
+    } else {
+      setVinyls(vinylData);
+      setSortDone(false);
+    }
+  };
 
   async function fetchAlbum(): Promise<Album[]> {
     const response = await fetch(`${BACKEND_API_URL}/albums`);
@@ -76,88 +99,111 @@ export const AllVinyls = () => {
         </IconButton>
       )}
       {!loading && vinyls.length > 0 && (
-        <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 650 }} aria-label="simple table">
-            <TableHead>
-              <TableRow>
-                <TableCell>#</TableCell>
-                <TableCell align="center">Album Title</TableCell>
-                <TableCell align="center">Edition</TableCell>
-                <TableCell align="right">Durability</TableCell>
-                <TableCell align="right">Size</TableCell>
-                <TableCell align="right">Material</TableCell>
-                <TableCell align="center">Groove</TableCell>
-                <TableCell align="center">Speed</TableCell>
-                <TableCell align="center">Condition</TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              {vinyls.map((vinyl, index) => (
-                <TableRow key={vinyl.id}>
-                  <TableCell component="th" scope="row">
-                    {index + 1}
-                  </TableCell>
-                  <TableCell component="th" scope="row">
-                    <Link
-                      to={`/vinyls/${vinyl.id}/details`}
-                      title="View vinyl details"
-                    >
-                      {albums.find((elem) => elem.id == vinyl.albumId)?.name}
-                    </Link>
-                  </TableCell>
-                  <TableCell align="right">
-                    {!vinyl.edition ? "-" : vinyl.edition}
-                  </TableCell>
-                  <TableCell align="right">
-                    {!vinyl.durablility ? "-" : vinyl.durablility}
-                  </TableCell>
-                  <TableCell align="right">
-                    {!vinyl.size ? "-" : vinyl.size}
-                  </TableCell>
-                  <TableCell align="right">
-                    {!vinyl.material ? "-" : vinyl.material}
-                  </TableCell>
-                  <TableCell align="right">
-                    {!vinyl.groove ? "-" : vinyl.groove}
-                  </TableCell>
-                  <TableCell align="right">
-                    {!vinyl.speed ? "-" : vinyl.speed}
-                  </TableCell>
-                  <TableCell align="right">
-                    {!vinyl.condition ? "-" : vinyl.condition}
-                  </TableCell>
-                  <TableCell align="right">
-                    <IconButton
-                      component={Link}
-                      sx={{ mr: 3 }}
-                      to={`/vinyls/${vinyl.id}/details`}
-                    >
-                      <Tooltip title="View vinyl details" arrow>
-                        <ReadMoreIcon color="primary" />
-                      </Tooltip>
-                    </IconButton>
+        <Card>
+          <CardContent>
+            <Button
+              sx={{
+                backgroundColor: "black",
+                color: "#d2c4b4",
+                borderRadius: "30px",
+                width: "15%",
+                height: "3em",
+                "&:hover": {
+                  color: "black",
+                  backgroundColor: "#d2c4b4",
+                },
+              }}
+              onClick={handleSort}
+            >
+              {!sortDone ? `Sort By Durability` : `Cancel Sort`}
+            </Button>
+            <TableContainer component={Paper}>
+              <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                <TableHead>
+                  <TableRow>
+                    <TableCell>#</TableCell>
+                    <TableCell align="center">Album Title</TableCell>
+                    <TableCell align="center">Edition</TableCell>
+                    <TableCell align="right">Durability</TableCell>
+                    <TableCell align="right">Size</TableCell>
+                    <TableCell align="right">Material</TableCell>
+                    <TableCell align="center">Groove</TableCell>
+                    <TableCell align="center">Speed</TableCell>
+                    <TableCell align="center">Condition</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {vinyls.map((vinyl, index) => (
+                    <TableRow key={vinyl.id}>
+                      <TableCell component="th" scope="row">
+                        {index + 1}
+                      </TableCell>
+                      <TableCell component="th" scope="row">
+                        <Link
+                          to={`/vinyls/${vinyl.id}/details`}
+                          title="View vinyl details"
+                        >
+                          {
+                            albums.find((elem) => elem.id == vinyl.albumId)
+                              ?.name
+                          }
+                        </Link>
+                      </TableCell>
+                      <TableCell align="right">
+                        {!vinyl.edition ? "-" : vinyl.edition}
+                      </TableCell>
+                      <TableCell align="right">
+                        {!vinyl.durablility ? "-" : vinyl.durablility}
+                      </TableCell>
+                      <TableCell align="right">
+                        {!vinyl.size ? "-" : vinyl.size}
+                      </TableCell>
+                      <TableCell align="right">
+                        {!vinyl.material ? "-" : vinyl.material}
+                      </TableCell>
+                      <TableCell align="right">
+                        {!vinyl.groove ? "-" : vinyl.groove}
+                      </TableCell>
+                      <TableCell align="right">
+                        {!vinyl.speed ? "-" : vinyl.speed}
+                      </TableCell>
+                      <TableCell align="right">
+                        {!vinyl.condition ? "-" : vinyl.condition}
+                      </TableCell>
+                      <TableCell align="right">
+                        <IconButton
+                          component={Link}
+                          sx={{ mr: 3 }}
+                          to={`/vinyls/${vinyl.id}/details`}
+                        >
+                          <Tooltip title="View vinyl details" arrow>
+                            <ReadMoreIcon color="primary" />
+                          </Tooltip>
+                        </IconButton>
 
-                    <IconButton
-                      component={Link}
-                      sx={{ mr: 3 }}
-                      to={`/vinyls/${vinyl.id}/edit`}
-                    >
-                      <EditIcon />
-                    </IconButton>
+                        <IconButton
+                          component={Link}
+                          sx={{ mr: 3 }}
+                          to={`/vinyls/${vinyl.id}/edit`}
+                        >
+                          <EditIcon />
+                        </IconButton>
 
-                    <IconButton
-                      component={Link}
-                      sx={{ mr: 3 }}
-                      to={`/vinyls/${vinyl.id}/delete`}
-                    >
-                      <DeleteForeverIcon sx={{ color: "red" }} />
-                    </IconButton>
-                  </TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </TableContainer>
+                        <IconButton
+                          component={Link}
+                          sx={{ mr: 3 }}
+                          to={`/vinyls/${vinyl.id}/delete`}
+                        >
+                          <DeleteForeverIcon sx={{ color: "red" }} />
+                        </IconButton>
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>{" "}
+          </CardContent>
+        </Card>
       )}
     </Container>
   );

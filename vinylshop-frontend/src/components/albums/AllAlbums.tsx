@@ -125,7 +125,6 @@ export const AllAlbums = () => {
                     <TableCell align="center">Album Title</TableCell>
                     <TableCell align="center">Lyrics</TableCell>
                     <TableCell align="right">realiseDate</TableCell>
-                    <TableCell align="right">Band Name</TableCell>
                     <TableCell align="right">Artist Name</TableCell>
                   </TableRow>
                 </TableHead>
@@ -153,9 +152,6 @@ export const AllAlbums = () => {
                         {!album.realiseDate
                           ? "-"
                           : album.realiseDate.toString()}
-                      </TableCell>
-                      <TableCell align="right">
-                        {!album.bandId ? "-" : album.band?.name}
                       </TableCell>
                       <TableCell align="right">
                         {!album.artistId ? "-" : album.artist?.firstName}

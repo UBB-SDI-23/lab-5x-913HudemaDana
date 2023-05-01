@@ -14,7 +14,6 @@ namespace Domain.DTOs
         public string? Name { get; set; }
         public string? Lyrics { get; set; }
         public DateTime? RealiseDate { get; set; } = DateTime.Now;
-        public int? BandId { get; set; }
         public int? ArtistId { get; set; }
     }
 }

@@ -17,9 +17,6 @@ namespace Domain.Models
         public string? Lyrics { get; set; }
         public DateTime? RealiseDate { get; set; } = DateTime.Now;
 
-        public virtual Band Band { get; set; }
-        public int? BandId { get; set;}
-
         public virtual Artist Artist { get; set; }
         public int? ArtistId { get; set;}
 

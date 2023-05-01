@@ -23,8 +23,7 @@ namespace Services
                 Id = Album.Id,
                 Name = Album.Name,
                 Lyrics = Album.Lyrics,
-                ArtistId = Album.ArtistId,
-                BandId = Album.BandId
+                ArtistId = Album.ArtistId
             });
 
             return AlbumListDto.ToList() ?? new List<AlbumDto>();
@@ -33,7 +32,6 @@ namespace Services
         {
             var album = await _context.Albums
                 .Include(x => x.Artist)
-                .Include(x => x.Band)
                 .SingleOrDefaultAsync(a => a.Id == id);
             var vinyls = await _context.Vinyls.Where(v => v.AlbumId == id).ToListAsync();
 
@@ -45,8 +43,6 @@ namespace Services
                 RealiseDate = album.RealiseDate,
                 Artist = album.Artist,
                 ArtistId = album.ArtistId,
-                Band = album.Band,
-                BandId = album.BandId,
                 Vinyls = vinyls
 
             } : null);
@@ -65,7 +61,6 @@ namespace Services
                     Name = Album.Name,
                     Lyrics = Album.Lyrics,
                     ArtistId = Album.ArtistId,
-                    BandId = Album.BandId,
                     AvgSize = avg
                 });
             }
@@ -89,7 +84,6 @@ namespace Services
                     Name = Album.Name,
                     Lyrics = Album.Lyrics,
                     ArtistId = Album.ArtistId,
-                    BandId = Album.BandId,
                     Durability = groupedVinyls.Count(),
                     Vinyls = groupedVinyls
                 }) ;
@@ -100,18 +94,15 @@ namespace Services
         public async Task AddAlbum(AlbumDto Album)
         {
             var artist = await _context.Artists.FindAsync(Album.ArtistId);
-            var band = await _context.Bands.FindAsync(Album.BandId);
-            if (artist == null && band == null)
-                throw new Exception("Invalid data entered when creating a new Album : verify input for artist and band");
+            if (artist == null)
+                throw new Exception("Invalid data entered when creating a new Album : verify input for artist");
 
             var newAlbum = new Album()
             {
                 Name = Album.Name,
                 Lyrics = Album.Lyrics,
                 RealiseDate = Album.RealiseDate,
-                Artist = artist,
-                Band = band
-
+                Artist = artist
             };
             await _context.Albums.AddAsync(newAlbum);
             await _context.SaveChangesAsync();
@@ -155,9 +146,8 @@ namespace Services
         public async Task UpdateAlbum(int id, AlbumDto newAlbum)
         {
             var artist = await _context.Artists.FindAsync(newAlbum.ArtistId);
-            var band = await _context.Bands.FindAsync(newAlbum.BandId);
-            if (artist == null && band == null)
-                throw new Exception("Invalid data entered when trying to update a Album : verify input for artist and band");
+            if (artist == null)
+                throw new Exception("Invalid data entered when trying to update a Album : verify input for artist");
 
             var Album = _context.Albums.Find(id);
             if (Album != null)
@@ -166,7 +156,6 @@ namespace Services
                 Album.Lyrics = newAlbum.Lyrics;
                 Album.RealiseDate = newAlbum.RealiseDate;
                 Album.Artist = artist;
-                Album.Band = band;
 
                 _context.Albums.Update(Album);
             }

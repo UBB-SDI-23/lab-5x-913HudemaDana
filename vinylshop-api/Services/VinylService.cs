@@ -20,10 +20,11 @@ namespace Services
         {
             _context = context;
         }
-        public async Task<IList<VinylDto>> GetAllVinyls()
+        public async Task<IList<VinylDto>> GetAllVinyls(string afterCursor, string beforeCursor, int pageSize)
         {
-            var vinylList = await _context.Vinyls.ToListAsync();
-            var vinylListDto = vinylList.Select(vinyl => new VinylDto()
+            var vinylList = _context.Vinyls
+                .AsQueryable()
+                .Select(vinyl => new VinylDto()
             {
                 Id = vinyl.Id,
                 Edition = vinyl.Edition,
@@ -36,7 +37,7 @@ namespace Services
                 Material = vinyl.Material
             });
 
-            return vinylListDto.ToList() ?? new List<VinylDto>();
+            return vinylList.ToList() ?? new List<VinylDto>();
         }
         public async Task<Vinyl?> GetVinylById(int id)
         {
