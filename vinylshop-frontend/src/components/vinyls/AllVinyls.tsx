@@ -25,6 +25,7 @@ import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import AddIcon from "@mui/icons-material/Add";
 import { forEach } from "lodash";
 import { Album } from "../../models/Album";
+import CustomPagination from "../helpers/CustomPagination";
 
 export const AllVinyls = () => {
   const [loading, setLoading] = useState(false);
@@ -32,9 +33,38 @@ export const AllVinyls = () => {
   const [albums, setAlbums] = useState<Album[]>([]);
   const [sortDone, setSortDone] = useState(false);
 
+  const [paginationOptions, setPaginationOptions] = useState({
+    PageNumber: 1,
+    PageSize: 10,
+  });
+  const [totalPages, setTotalPages] = useState(0);
+  const [totalCount, setTotalCount] = useState(0);
+
+  const fetchPaginatedVinyls = async () => {
+    const response = await fetch(
+      `${BACKEND_API_URL}/vinyls/paginated?pageNumber=${paginationOptions.PageNumber}&pageSize=${paginationOptions.PageSize}`
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setVinyls(data.results);
+        setTotalPages(data.totalPages);
+      })
+      .catch((error) => {
+        console.error("Error fetching paginated vinyls:", error);
+      });
+  };
+
+  const handlePageChange = (PageNumber: any) => {
+    setPaginationOptions({ ...paginationOptions, PageNumber });
+  };
+
+  const handlePageSizeChange = (PageSize: any) => {
+    setPaginationOptions({ ...paginationOptions, PageSize, PageNumber: 1 });
+  };
+
   const handleSort = async (event: { preventDefault: () => void }) => {
     event.preventDefault();
-    const vinylData = await fetchVinyl();
+    const vinylData = vinyls;
 
     if (!sortDone) {
       setVinyls(
@@ -58,26 +88,28 @@ export const AllVinyls = () => {
     return data as Album[];
   }
 
-  async function fetchVinyl(): Promise<Vinyl[]> {
+  async function fetchVinyl(): Promise<number> {
     const response = await fetch(`${BACKEND_API_URL}/vinyls`);
     const data = await response.json();
-    return data as Vinyl[];
+    return data.length;
   }
 
   useEffect(() => {
     setLoading(true);
     const fetchData = async () => {
+      //fetch all albums
       const albumData = await fetchAlbum();
       setAlbums(albumData);
-
-      const vinylData = await fetchVinyl();
-      setVinyls(vinylData);
+      //count total number of vinyls
+      const countVinyls = await fetchVinyl();
+      setTotalCount(countVinyls);
+      //fetch paginated vinyls
+      await fetchPaginatedVinyls();
     };
-
     fetchData();
     console.log(vinyls);
     setLoading(false);
-  }, []);
+  }, [paginationOptions]);
 
   return (
     <Container
@@ -103,6 +135,7 @@ export const AllVinyls = () => {
           <CardContent>
             <Button
               sx={{
+                marginBottom: "1em",
                 backgroundColor: "black",
                 color: "#d2c4b4",
                 borderRadius: "30px",
@@ -202,6 +235,12 @@ export const AllVinyls = () => {
                 </TableBody>
               </Table>
             </TableContainer>{" "}
+            <CustomPagination
+              totalCount={totalCount}
+              paginationOptions={paginationOptions}
+              onPageChange={handlePageChange}
+              onPageSizeChange={handlePageSizeChange}
+            />
           </CardContent>
         </Card>
       )}

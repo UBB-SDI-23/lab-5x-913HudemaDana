@@ -1,4 +1,4 @@
-import { Album } from './Album';
+import { Album } from "./Album";
 
 export interface Artist {
   id: number;
@@ -7,5 +7,6 @@ export interface Artist {
   age?: number;
   nationality?: string;
   activeYears?: number;
+  description?: string;
   albums?: Album[];
 }

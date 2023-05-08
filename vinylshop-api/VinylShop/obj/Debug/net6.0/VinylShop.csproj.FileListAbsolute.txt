@@ -730,12 +730,16 @@ E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Azure.Identity.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Castle.Core.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\EntityFramework.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Google.Protobuf.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Humanizer.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Iesi.Collections.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\K4os.Compression.LZ4.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
+E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.AspNet.Identity.EntityFramework.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 E:\Folder3\vinylshop-api\VinylShop\bin\Debug\net6.0\Microsoft.Azure.AppConfiguration.AspNetCore.dll

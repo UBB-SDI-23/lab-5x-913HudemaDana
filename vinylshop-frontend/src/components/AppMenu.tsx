@@ -38,6 +38,22 @@ export const AppMenu = () => {
           </Button>
           <Button
             disableRipple
+            to="/shops"
+            component={Link}
+            color="inherit"
+            sx={{
+              mr: 2,
+              color: "black",
+              "&:hover": {
+                color: "black",
+                backgroundColor: "#d2c4b4",
+              },
+            }}
+          >
+            Shops
+          </Button>
+          <Button
+            disableRipple
             to="/vinyls"
             component={Link}
             color="inherit"
@@ -52,7 +68,6 @@ export const AppMenu = () => {
           >
             Vinyls
           </Button>
-
           <IconButton
             disableRipple
             component={Link}
@@ -74,14 +89,13 @@ export const AppMenu = () => {
               <AlbumIcon fontSize="medium" />P
             </Typography>
           </IconButton>
-
           <Button
             disableRipple
-            to="/vinyls/add"
+            to="/artists"
             component={Link}
             color="inherit"
             sx={{
-              ml: 2,
+              mr: 2,
               color: "black",
               "&:hover": {
                 color: "black",
@@ -89,7 +103,23 @@ export const AppMenu = () => {
               },
             }}
           >
-            Add Vinyl
+            Artists
+          </Button>
+          <Button
+            disableRipple
+            to="/stocks"
+            component={Link}
+            color="inherit"
+            sx={{
+              mr: 2,
+              color: "black",
+              "&:hover": {
+                color: "black",
+                backgroundColor: "#d2c4b4",
+              },
+            }}
+          >
+            Stocks
           </Button>
         </Toolbar>
       </AppBar>

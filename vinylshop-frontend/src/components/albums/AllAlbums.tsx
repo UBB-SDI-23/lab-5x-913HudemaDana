@@ -78,6 +78,13 @@ export const AllAlbums = () => {
 
       {loading && <CircularProgress />}
       {!loading && albums.length === 0 && <p>No albums found</p>}
+      {!loading && (
+        <IconButton component={Link} sx={{ mr: 3 }} to={`/albums/add`}>
+          <Tooltip title="Add a new album" arrow>
+            <AddIcon color="primary" />
+          </Tooltip>
+        </IconButton>
+      )}
       {!loading && albums.length > 0 && (
         <Card>
           <CardContent>

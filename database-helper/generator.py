@@ -6,11 +6,11 @@ from multiprocessing import Process
 
 fake = Faker()
 
-ALBUMS_COUNT = 1_000_000
-ARTISTS_COUNT = 1_000_000
-SHOPS_COUNT = 1_000_000
-VINYLS_COUNT = 1_000_000
-STOCKS_COUNT = 10_000_000
+ALBUMS_COUNT = 1_000
+ARTISTS_COUNT = 1_000
+SHOPS_COUNT = 1_000
+VINYLS_COUNT = 1_000
+STOCKS_COUNT = 10_000
 
 NATIONALITY = ["American", "Australian", "British", "Canadian", "Chinese", "French",
                "German", "Indian", "Italian", "Japanese", "Mexican", "Russian", "Spanish"]

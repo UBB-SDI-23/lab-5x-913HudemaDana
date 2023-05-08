@@ -27,7 +27,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//       options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnection")));
+ //      options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnection")));
 
 //builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("MySqlConnection"))));
@@ -39,7 +39,6 @@ builder.Services.AddScoped<IAlbumService, AlbumService>();
 builder.Services.AddScoped<IVinylService, VinylService>();
 
 builder.Services.AddSwaggerGen();
-
 
 var app = builder.Build();
 

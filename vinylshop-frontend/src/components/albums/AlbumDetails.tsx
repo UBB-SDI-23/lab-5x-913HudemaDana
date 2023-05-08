@@ -3,7 +3,7 @@ import { Container } from "@mui/system";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { BACKEND_API_URL } from "../../constants";
-import { Vinyl } from "../../models/Vinyl";
+import { Album } from "../../models/Album";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
@@ -11,37 +11,25 @@ import React from "react";
 import axios from "axios";
 import { Shop } from "../../models/Shop";
 
-export const VinylDetails = () => {
-  const { vinylId } = useParams();
-  const [vinyl, setVinyl] = useState<Vinyl>();
-  const [shop, setShop] = useState<Shop[]>([]);
+export const AlbumDetails = () => {
+  const { albumId } = useParams();
+  const [album, setAlbum] = useState<Album>();
 
   useEffect(() => {
-    const fetchVinyl = async () => {
+    const fetchAlbum = async () => {
       try {
         // TODO: handle loading state
-        const response = await axios.get<Vinyl>(
-          `${BACKEND_API_URL}/vinyls/${vinylId}`
+        const response = await axios.get<Album>(
+          `${BACKEND_API_URL}/albums/${albumId}`
         );
-        const vinyl = await response.data;
-        setVinyl(vinyl);
+        const album = await response.data;
+        setAlbum(album);
       } catch (error) {
-        console.error("Error fetching vinyls details:", error);
+        console.error("Error fetching albums details:", error);
       }
     };
-
-    const fetchShops = async () => {
-      try {
-        const response = await axios.get<Shop[]>(`${BACKEND_API_URL}/shops`);
-        const shops = await response.data;
-        setShop(shops);
-      } catch (error) {
-        console.error("Error fetching shops for vinyl details:", error);
-      }
-    };
-    fetchVinyl();
-    fetchShops();
-  }, [vinylId]);
+    fetchAlbum();
+  }, [albumId]);
 
   return (
     <Container
@@ -53,25 +41,21 @@ export const VinylDetails = () => {
     >
       <Card>
         <CardContent>
-          <IconButton component={Link} sx={{ mr: 3 }} to={`/vinyls`}>
+          <IconButton component={Link} sx={{ mr: 3 }} to={`/albums`}>
             <ArrowBackIcon />
           </IconButton>{" "}
-          <h1>Vinyl Details</h1>
-          <p>Vinyl Album Name: {vinyl?.album?.name}</p>
-          <p>Vinyl Edition: {vinyl?.edition}</p>
-          <p>Vinyl Durablility: {vinyl?.durablility}</p>
-          <p>Vinyl Size: {vinyl?.size}</p>
-          <p>Vinyl Material: {vinyl?.material}</p>
-          <p>Vinyl Groove: {vinyl?.groove}</p>
-          <p>Vinyl Speed: {vinyl?.speed}</p>
-          <p>Vinyl Condition: {vinyl?.condition}</p>
-          <p>Vinyl Stocks:</p>
+          <h1>Album Details</h1>
+          <p>Album Name: {album?.name}</p>
+          <p>Album Lyrics: {album?.lyrics}</p>
+          <p>Album RealiseDate: {album?.realiseDate?.toDateString()}</p>
+          <p>
+            Album Artist:{" "}
+            {album?.artist?.firstName + " " + album?.artist?.lastName}
+          </p>
+          <p>Album Vinyls:</p>
           <ul>
-            {vinyl?.stocks?.map((stock: any) => (
-              <li key={stock.id}>
-                {stock.availableVinyls} in{" "}
-                {shop.find((elem) => elem.id == stock.shopId)?.town}
-              </li>
+            {album?.vinyls?.map((vinyl: any) => (
+              <li key={vinyl.id}>{vinyl.edition}</li>
             ))}
           </ul>
         </CardContent>
@@ -79,7 +63,7 @@ export const VinylDetails = () => {
           <IconButton
             component={Link}
             sx={{ mr: 3 }}
-            to={`/vinyls/${vinylId}/edit`}
+            to={`/albums/${albumId}/edit`}
           >
             <EditIcon />
           </IconButton>
@@ -87,7 +71,7 @@ export const VinylDetails = () => {
           <IconButton
             component={Link}
             sx={{ mr: 3 }}
-            to={`/vinyls/${vinylId}/delete`}
+            to={`/albums/${albumId}/delete`}
           >
             <DeleteForeverIcon sx={{ color: "red" }} />
           </IconButton>

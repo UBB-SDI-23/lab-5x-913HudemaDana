@@ -507,7 +507,11 @@ E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Antlr3.Runtime.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Azure.Core.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Azure.Identity.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Castle.Core.dll
+E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\EntityFramework.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Iesi.Collections.dll
+E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
+E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Microsoft.AspNet.Identity.EntityFramework.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 E:\Folder3\vinylshop-api\ServicesTests\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll

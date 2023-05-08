@@ -14,21 +14,21 @@ import axios from "axios";
 import { BACKEND_API_URL } from "../../constants";
 import React from "react";
 
-export const VinylDelete = () => {
-  const { vinylId } = useParams();
+export const AlbumDelete = () => {
+  const { albumId } = useParams();
   const navigate = useNavigate();
 
   const handleDelete = async (event: { preventDefault: () => void }) => {
     event.preventDefault();
-    await axios.delete(`${BACKEND_API_URL}/vinyls/deleteVinyl/${vinylId}`);
-    // go to vinyls list
-    navigate("/vinyls");
+    await axios.delete(`${BACKEND_API_URL}/albums/deleteAlbum/${albumId}`);
+    // go to albums list
+    navigate("/albums");
   };
 
   const handleCancel = (event: { preventDefault: () => void }) => {
     event.preventDefault();
-    // go to vinyls list
-    navigate("/vinyls");
+    // go to albums list
+    navigate("/albums");
   };
 
   return (
@@ -42,7 +42,7 @@ export const VinylDelete = () => {
     >
       <Card>
         <CardContent>
-          <IconButton component={Link} to={`/vinyls`}>
+          <IconButton component={Link} to={`/albums`}>
             <HighlightOffRoundedIcon fontSize="large" />
           </IconButton>
         </CardContent>
@@ -50,7 +50,7 @@ export const VinylDelete = () => {
         <Card sx={{ padding: 6 }}>
           <CardContent>
             <Typography>
-              Are you sure you want to delete this vinyl?This cannot be undone!
+              Are you sure you want to delete this album?This cannot be undone!
             </Typography>
           </CardContent>
           <CardActions

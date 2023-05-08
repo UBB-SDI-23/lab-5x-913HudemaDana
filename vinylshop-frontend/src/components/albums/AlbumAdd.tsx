@@ -7,43 +7,38 @@ import {
   IconButton,
   TextField,
 } from "@mui/material";
+import DatePicker from "@mui/lab/DatePicker";
 import { Container } from "@mui/system";
 import { useCallback, useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { BACKEND_API_URL } from "../../constants";
-import { Vinyl } from "../../models/Vinyl";
-import EditIcon from "@mui/icons-material/Edit";
-import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
+import { Album } from "../../models/Album";
 import ClearRoundedIcon from "@mui/icons-material/ClearRounded";
 import axios from "axios";
-import { Album } from "../../models/Album";
 import { debounce } from "lodash";
-import React from "react";
+import { Artist } from "../../models/Artist";
 
-export const VinylAdd = () => {
+export const AlbumAdd = () => {
   const navigate = useNavigate();
 
-  const [vinyl, setVinyl] = useState<Vinyl>({
-    edition: "",
-    durablility: 1,
-    size: 7,
-    material: "",
-    groove: "",
-    speed: "",
-    condition: "",
-    albumId: 1, // TODO: also read the teacher_id from the form (NOT from the user!)
+  const [album, setAlbum] = useState<Album>({
+    id: 1,
+    name: "",
+    lyrics: "",
+    realiseDate: new Date("2022-04-17"),
+    artistId: 1,
   });
 
-  const [albums, setAlbums] = useState<Album[]>([]);
+  const [artists, setArtists] = useState<Artist[]>([]);
 
   const fetchSuggestions = async (query: string) => {
     try {
-      const response = await axios.get<Album[]>(
-        `${BACKEND_API_URL}/albums/autocomplete?query=${query}`
+      const response = await axios.get<Artist[]>(
+        `${BACKEND_API_URL}/artists/autocomplete?query=${query}`
       );
       const data = await response.data;
-      setAlbums(data);
-      console.log(albums);
+      setArtists(data);
+      console.log(artists);
     } catch (error) {
       console.error("Error fetching suggestions:", error);
     }
@@ -60,11 +55,11 @@ export const VinylAdd = () => {
     };
   }, [debouncedFetchSuggestions]);
 
-  const addVinyl = async (event: { preventDefault: () => void }) => {
+  const addAlbum = async (event: { preventDefault: () => void }) => {
     event.preventDefault();
     try {
-      await axios.post(`${BACKEND_API_URL}/vinyls/addVinyl`, vinyl);
-      navigate("/vinyls");
+      await axios.post(`${BACKEND_API_URL}/albums/addAlbum`, album);
+      navigate("/albums");
     } catch (error) {
       console.log(error);
     }
@@ -88,101 +83,54 @@ export const VinylAdd = () => {
     >
       <Card>
         <CardContent>
-          <IconButton component={Link} sx={{ mr: 3, mb: 3 }} to={`/vinyls`}>
+          <IconButton component={Link} sx={{ mr: 3, mb: 3 }} to={`/albums`}>
             <ClearRoundedIcon />
           </IconButton>{" "}
-          <form onSubmit={addVinyl}>
+          <form onSubmit={addAlbum}>
             <TextField
-              id="edition"
-              label="Edition"
+              id="name"
+              label="Name"
               variant="outlined"
               fullWidth
               sx={{ mb: 2 }}
               onChange={(event) =>
-                setVinyl({ ...vinyl, edition: event.target.value })
+                setAlbum({ ...album, name: event.target.value })
               }
             />
             <TextField
-              type="number"
-              id="durablility"
-              label="Durablility"
+              id="lyrics"
+              label="Lyrics"
               variant="outlined"
               fullWidth
               sx={{ mb: 2 }}
               onChange={(event) =>
-                setVinyl({
-                  ...vinyl,
-                  durablility: parseInt(event.target.value),
-                })
+                setAlbum({ ...album, lyrics: event.target.value })
               }
             />
-            <TextField
-              type="number"
-              id="size"
-              label="Size"
-              variant="outlined"
+            <DatePicker
+              id="realiseDate"
+              label="Realise Date"
               fullWidth
               sx={{ mb: 2 }}
-              onChange={(event) =>
-                setVinyl({ ...vinyl, size: parseInt(event.target.value) })
+              onChange={(event: { target: { value: any } }) =>
+                setAlbum({ ...album, realiseDate: event.target.value })
               }
             />
-            <TextField
-              id="material"
-              label="Material"
-              variant="outlined"
-              fullWidth
-              sx={{ mb: 2 }}
-              onChange={(event) =>
-                setVinyl({ ...vinyl, material: event.target.value })
-              }
-            />
-            <TextField
-              id="groove"
-              label="Groove"
-              variant="outlined"
-              fullWidth
-              sx={{ mb: 2 }}
-              onChange={(event) =>
-                setVinyl({ ...vinyl, groove: event.target.value })
-              }
-            />
-            <TextField
-              id="speed"
-              label="Speed"
-              variant="outlined"
-              fullWidth
-              sx={{ mb: 2 }}
-              onChange={(event) =>
-                setVinyl({ ...vinyl, speed: event.target.value })
-              }
-            />
-            <TextField
-              id="condition"
-              label="Condition"
-              variant="outlined"
-              fullWidth
-              sx={{ mb: 2 }}
-              onChange={(event) =>
-                setVinyl({ ...vinyl, condition: event.target.value })
-              }
-            />
-
             <Autocomplete
-              id="albumId"
-              options={albums}
+              id="artistId"
+              options={artists}
               getOptionLabel={(option) =>
-                `${option.name} - ${option.artist?.firstName} ${option.artist?.lastName}`
+                `${option.firstName} ${option.lastName}`
               }
               renderInput={(params) => (
-                <TextField {...params} label="Album" variant="outlined" />
+                <TextField {...params} label="Artist" variant="outlined" />
               )}
               filterOptions={(x) => x}
               onInputChange={handleInputChange}
               onChange={(event, value) => {
                 if (value) {
                   console.log(value);
-                  setVinyl({ ...vinyl, albumId: value.id });
+                  setAlbum({ ...album, artistId: value.id });
                 }
               }}
             />
@@ -202,12 +150,12 @@ export const VinylAdd = () => {
                 },
               }}
             >
-              Add Vinyl
+              Add Album
             </Button>
 
             <Button
               component={Link}
-              to={`/vinyls`}
+              to={`/albums`}
               sx={{
                 mt: 3,
                 ml: 3,

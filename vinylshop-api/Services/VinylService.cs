@@ -1,12 +1,15 @@
 ﻿using DataAccess.Data;
 using Domain.DTOs;
+using Domain.Helpers;
 using Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using NHibernate.Criterion;
 using Services.Abstractions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,6 +23,45 @@ namespace Services
         {
             _context = context;
         }
+
+        public async Task<PaginationResult<VinylDto>> GetAllVinyls(PaginationOptions paginationOptions)
+        {
+            var vinyls = _context.Vinyls
+                .Select(vinyl => new VinylDto()
+                {
+                    Id = vinyl.Id,
+                    Edition = vinyl.Edition,
+                    AlbumId = vinyl.AlbumId,
+                    Durablility = vinyl.Durablility,
+                    Size = vinyl.Size,
+                    Groove = vinyl.Groove,
+                    Speed = vinyl.Speed,
+                    Condition = vinyl.Condition,
+                    Material = vinyl.Material
+                })
+                .AsQueryable();
+ 
+            // apply pagination
+            var pagedVinyls = await vinyls
+                .Skip((paginationOptions.PageNumber - 1) * paginationOptions.PageSize)
+                .Take(paginationOptions.PageSize)
+                .ToListAsync();
+
+            var totalRecords = await vinyls.CountAsync();
+            var totalPages = (int)Math.Ceiling((double)totalRecords / paginationOptions.PageSize);
+
+            var paginationResult = new PaginationResult<VinylDto>
+            {
+                PageNumber = paginationOptions.PageNumber,
+                PageSize = paginationOptions.PageSize,
+                TotalPages = totalPages,
+                TotalRecords = totalRecords,
+                Results = pagedVinyls
+            };
+
+            return paginationResult;
+        }
+
         public async Task<IList<VinylDto>> GetAllVinyls()
         {
             var vinylList = _context.Vinyls

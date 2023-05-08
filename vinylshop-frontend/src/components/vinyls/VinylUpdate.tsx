@@ -84,6 +84,13 @@ export const VinylUpdate = () => {
     }
   };
 
+  const handleInputChange = (event: any, value: any, reason: any) => {
+    console.log("input", value, reason);
+
+    if (reason === "input") {
+      debouncedFetchSuggestions(value);
+    }
+  };
   return (
     <Container
       sx={{
@@ -198,7 +205,7 @@ export const VinylUpdate = () => {
                 <TextField {...params} label="Album" variant="outlined" />
               )}
               filterOptions={(x) => x}
-              //onInputChange={handleInputChange}
+              onInputChange={handleInputChange}
               onChange={(event, value) => {
                 if (value) {
                   console.log(value);

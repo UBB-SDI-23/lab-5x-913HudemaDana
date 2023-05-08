@@ -12,7 +12,6 @@
           "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3"
         },
         "runtime": {
@@ -53,11 +52,43 @@
           }
         }
       },
+      "EntityFramework/6.1.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.30225.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.30225.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNet.Identity.Core/2.2.3": {
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.3.11125"
+          }
+        }
+      },
+      "Microsoft.AspNet.Identity.EntityFramework/2.2.3": {
+        "dependencies": {
+          "EntityFramework": "6.1.0",
+          "Microsoft.AspNet.Identity.Core": "2.2.3"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.EntityFramework.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.3.11125"
           }
         }
       },
@@ -195,11 +226,6 @@
             "assemblyVersion": "7.0.3.0",
             "fileVersion": "7.0.323.6302"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "7.0.3"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
@@ -729,6 +755,9 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Identity.EntityFramework": "2.2.3"
+        },
         "runtime": {
           "Domain.dll": {}
         }
@@ -755,12 +784,33 @@
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
     },
+    "EntityFramework/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u/M0OEfqxTUsL5BwzD66eBGm278/ozqdLK3JvMO6QwUxxc+z7ZUkTYm4suDhWRqzkc6mOhvXDQY5dZUwbldxyQ==",
+      "path": "entityframework/6.1.0",
+      "hashPath": "entityframework.6.1.0.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Identity.Core/2.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mv5FpoaxspE8hlWLE4r1IdZtovg/OyFgVRhxQbx47J4sqdLImN1hnM1lnwCj+/wLmqtqFk/RYMoZ5GAcwm/00g==",
+      "path": "microsoft.aspnet.identity.core/2.2.3",
+      "hashPath": "microsoft.aspnet.identity.core.2.2.3.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Identity.EntityFramework/2.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dt4XZChjw3a6jE66Yd6LkF9omspxi0A9lJpwBZz8Wl1sabOS6dlLP1OOTVuUjtPaoAshjoIzvS6DFRQdPyq55g==",
+      "path": "microsoft.aspnet.identity.entityframework/2.2.3",
+      "hashPath": "microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -831,13 +881,6 @@
       "sha512": "sha512-WXd8Mg12+LrfuVOfz0YUYsiaIKI0fLTdhN/WdQGxzGM3l86GLdpACUb30Y7oUpMG4YNegerEd0AVLlMpfwOjug==",
       "path": "microsoft.entityframeworkcore.sqlserver/7.0.3",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.3.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-yHFlYPZS3Jx7JMCQnGKfJzv95rJWVcmcUn/OW5cbCyWgQk81JJpTZ9Q6kkvwquYjFRfvYHBGuXNIYhAJokOBTQ==",
-      "path": "microsoft.entityframeworkcore.tools/7.0.3",
-      "hashPath": "microsoft.entityframeworkcore.tools.7.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "type": "package",

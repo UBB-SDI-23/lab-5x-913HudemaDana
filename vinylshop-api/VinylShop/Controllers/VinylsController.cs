@@ -1,4 +1,5 @@
 ﻿using Domain.DTOs;
+using Domain.Helpers;
 using Domain.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -17,6 +18,21 @@ namespace VinylShop.Controllers
         {
             _logger = logger;
             _service = service;
+        }
+
+        [HttpGet("paginated")]
+        public async Task<ActionResult<PaginationResult<VinylDto>>> GetAllVinyls([FromQuery] PaginationOptions paginationOptions)
+        {
+            try
+            {
+                var vinylsPaginatedResult = await _service.GetAllVinyls(paginationOptions);
+                return Ok(vinylsPaginatedResult);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Something went wrong inside GetAllVinyls Pagignated:" + ex.Message);
+                return BadRequest();
+            }
         }
 
         [HttpGet]
