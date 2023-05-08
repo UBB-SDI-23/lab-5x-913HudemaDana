@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\vinylshop-api"
   ],
-  "SelectedNode": "\\VinylShop.sln",
+  "SelectedNode": "\\vinylshop-api\\VinylShop.sln",
   "PreviewInSolutionExplorer": false
 }
