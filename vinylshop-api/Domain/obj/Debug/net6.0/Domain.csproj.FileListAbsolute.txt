@@ -58,3 +58,15 @@ E:\Folder3\vinylshop-api\Domain\obj\Debug\net6.0\Domain.dll
 E:\Folder3\vinylshop-api\Domain\obj\Debug\net6.0\refint\Domain.dll
 E:\Folder3\vinylshop-api\Domain\obj\Debug\net6.0\Domain.pdb
 E:\Folder3\vinylshop-api\Domain\obj\Debug\net6.0\ref\Domain.dll
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\bin\Debug\net6.0\Domain.deps.json
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\bin\Debug\net6.0\Domain.dll
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\bin\Debug\net6.0\Domain.pdb
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\obj\Debug\net6.0\Domain.dll
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\obj\Debug\net6.0\refint\Domain.dll
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\obj\Debug\net6.0\Domain.pdb
+E:\Folder4\lab-5x-913HudemaDana\vinylshop-api\Domain\obj\Debug\net6.0\ref\Domain.dll
