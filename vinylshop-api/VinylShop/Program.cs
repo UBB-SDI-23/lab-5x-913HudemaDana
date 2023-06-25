@@ -22,7 +22,7 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnC
 
 builder.Services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
-//test daca merge git-ul
+//gata testul, should work
 //builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
