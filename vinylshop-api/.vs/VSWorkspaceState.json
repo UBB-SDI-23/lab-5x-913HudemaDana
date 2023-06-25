@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DataAccess",
+    "\\DataAccess\\Data",
+    "\\Domain",
+    "\\Domain\\Models",
     "\\Services",
-    "\\VinylShop"
+    "\\ServicesTests",
+    "\\VinylShop",
+    "\\VinylShop\\Controllers"
   ],
-  "SelectedNode": "\\VinylShop\\Program.cs",
+  "SelectedNode": "\\VinylShop\\Controllers\\AlbumsController.cs",
   "PreviewInSolutionExplorer": false
 }
